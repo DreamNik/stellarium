@@ -74,6 +74,8 @@ class StelGui : public QObject, public StelGuiBase
 	Q_PROPERTY(bool flagUseButtonsBackground   READ getFlagUseButtonsBackground   WRITE setFlagUseButtonsBackground   NOTIFY flagUseButtonsBackgroundChanged)
 	Q_PROPERTY(bool flagUseKineticScrolling READ getFlagUseKineticScrolling WRITE setFlagUseKineticScrolling NOTIFY flagUseKineticScrollingChanged)
 	Q_PROPERTY(bool flagEnableFocusOnDaySpinner READ getFlagEnableFocusOnDaySpinner WRITE setFlagEnableFocusOnDaySpinner NOTIFY flagEnableFocusOnDaySpinnerChanged)
+	Q_PROPERTY(bool flagShowCardinalButton READ getFlagShowCardinalButton WRITE setFlagShowCardinalButton NOTIFY  flagShowCardinalButtonChanged)
+	Q_PROPERTY(bool flagShowCompassButton READ getFlagShowCompassButton WRITE setFlagShowCompassButton NOTIFY  flagShowCompassButtonChanged)
 
 public:
 	friend class ViewDialog;
@@ -161,6 +163,16 @@ public slots:
 	//! Get whether the button toggling DSS survey (TOAST) is visible
 	bool getFlagShowDSSButton() const;
 
+	//! Define whether the button toggling cardinal should be visible
+	void setFlagShowCardinalButton(bool b);
+	//! Get whether the button toggling cardinal is visible
+	bool getFlagShowCardinalButton() const;
+
+	//! Define whether the button toggling compass marks should be visible
+	void setFlagShowCompassButton(bool b);
+	//! Get whether the button toggling compass marks is visible
+	bool getFlagShowCompassButton() const;
+
 	//! Define whether the button toggling HiPS surveys should be visible
 	void setFlagShowHiPSButton(bool b);
 	//! Get whether the button toggling HiPS surveys is visible
@@ -234,7 +246,7 @@ public slots:
 	//! @param b to hide or not to hide
 	void setAutoHideVerticalButtonBar(bool b);
 
-#ifndef DISABLE_SCRIPTING
+#ifdef ENABLE_SCRIPTING
 	//! change keys when a script is running / not running
 	void setScriptKeys(bool b);
 	void increaseScriptSpeed();
@@ -270,10 +282,12 @@ signals:
 	void flagShowConstellationBoundariesButtonChanged(bool b);
 	void flagShowAsterismLinesButtonChanged(bool b);
 	void flagShowAsterismLabelsButtonChanged(bool b);
+	void flagShowCardinalButtonChanged(bool b);
+	void flagShowCompassButtonChanged(bool b);
 
 private slots:
 	void reloadStyle();
-#ifndef DISABLE_SCRIPTING
+#ifdef ENABLE_SCRIPTING
 	void scriptStarted();
 	void scriptStopped();
 #endif
@@ -362,6 +376,12 @@ private:
 	bool flagShowAsterismLabelsButton;
 	StelButton* btShowAsterismLabels;
 
+	bool flagShowCardinalButton;
+	StelButton* btShowCardinal;
+
+	bool flagShowCompassButton;
+	StelButton* btShowCompass;
+
 	bool initDone;
 
 	QSizeF savedProgressBarSize;
@@ -369,7 +389,7 @@ private:
 	// Currently used StelStyle
 	StelStyle currentStelStyle;
 
-#ifndef DISABLE_SCRIPTING
+#ifdef ENABLE_SCRIPTING
 	// We use a QStringList to save the user-configured buttons while script is running, and restore them later.
 	QStringList scriptSaveSpeedbuttons;
 #endif

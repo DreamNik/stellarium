@@ -111,11 +111,11 @@ QString daysFloatToDHMS(float days)
 	float remain = days;
 
 	int d = static_cast<int> (remain); remain -= d;
-	remain *= 24.0;
+	remain *= 24.0f;
 	int h = static_cast<int> (remain); remain -= h;
-	remain *= 60.0;
+	remain *= 60.0f;
 	int m = static_cast<int> (remain); remain -= m; 
-	remain *= 60.0;
+	remain *= 60.0f;
 
 	auto r = QString("%1%2 %3%4 %5%6 %7%8")
 	.arg(d)		.arg(qc_("d", "duration"))
@@ -186,16 +186,11 @@ void radToDecDeg(double rad, bool &sign, double &deg)
 
 QString radToDecDegStr(const double angle, const int precision, const bool useD, const bool useC)
 {
-	QChar degsign('d');
-	QString str;	
-	if (!useD)
-	{
-		degsign = 0x00B0;		
-	}
+	const QChar degsign = (useD ? 'd' : 0x00B0);
 	bool sign;
 	double deg;
 	StelUtils::radToDecDeg(angle, sign, deg);
-	str = QString("%1%2%3").arg((sign?"+":"-"), QString::number(deg, 'f', precision), degsign);
+	QString str = QString("%1%2%3").arg((sign?"+":"-"), QString::number(deg, 'f', precision), degsign);
 	if (useC)
 	{
 		if (!sign)
@@ -290,11 +285,7 @@ QString radToHmsStr(const double angle, const bool decimal)
 *************************************************************************/
 QString radToDmsStrAdapt(const double angle, const bool useD)
 {
-	QChar degsign('d');
-	if (!useD)
-	{
-		degsign = 0x00B0;
-	}
+	const QChar degsign = (useD ? 'd' : 0x00B0);
 	bool sign;
 	unsigned int d,m;
 	double s;
@@ -334,11 +325,7 @@ QString radToDmsStr(const double angle, const bool decimal, const bool useD)
 *************************************************************************/
 QString radToDmsPStr(const double angle, const int precision, const bool useD)
 {
-	QChar degsign('d');
-	if (!useD)
-	{
-		degsign = 0x00B0;
-	}
+	const QChar degsign = (useD ? 'd' : 0x00B0);
 	bool sign;
 	unsigned int d,m;
 	double s;
@@ -585,9 +572,7 @@ void getDateFromJulianDay(const double jd, int *yy, int *mm, int *dd)
 
 	static const long JD_GREG_CAL = 2299161;
 	static const int JB_MAX_WITHOUT_OVERFLOW = 107374182;
-	long julian;
-
-	julian = static_cast<long>(floor(jd + 0.5));
+	const long julian = static_cast<long>(floor(jd + 0.5));
 
 	long ta, jalpha, tb, tc, td, te;
 
@@ -612,9 +597,7 @@ void getDateFromJulianDay(const double jd, int *yy, int *mm, int *dd)
 	}
 	else
 	{
-		// FIXME: Modifying this cast to modern style breaks a test.
-		//tc = static_cast<long>((static_cast<unsigned long long>(tb*20) - 2442) / 7305); //- WTF???
-		tc = (long)(((unsigned long long)tb*20 - 2442) / 7305);
+		tc = static_cast<long>((static_cast<unsigned long long>(tb)*20 - 2442) / 7305);
 	}
 	td = 365 * tc + tc/4;
 	te = ((tb - td) * 10000)/306001;
@@ -668,7 +651,7 @@ QString julianDayToISO8601String(const double jd, bool addMS)
 
 	if(addMS)
 	{
-		res = res.append(".%1").arg(millis,3,10,QLatin1Char('0'));
+		res.append(".%1").arg(millis,3,10,QLatin1Char('0'));
 	}
 	if (year < 0)
 	{
@@ -849,7 +832,7 @@ bool getJDFromDate(double* newjd, const int y, const int m, const int d, const i
 	double deltaTime = (h / 24.0) + (min / (24.0*60.0)) + (static_cast<double>(s) / (24.0 * 60.0 * 60.0)) - 0.5;
 	QDate test((y <= 0 ? y-1 : y), m, d);
 	// if QDate will oblige, do so.
-	// added hook for Julian calendar, because he has been removed from Qt5 --AW
+	// added hook for Julian calendar, because it has been removed from Qt5 --AW
 	if ( test.isValid() && y>1582)
 	{
 		double qdjd = static_cast<double>(test.toJulianDay());
@@ -974,15 +957,15 @@ int numberOfDaysInMonthInYear(const int month, const int year)
 // return true if year is a leap year. Observes 1582 switch from Julian to Gregorian Calendar.
 bool isLeapYear(const int year)
 {
-	if (year>1582){
-		if (year % 400 == 0)
-			return true;
-		else if (year % 100 == 0)
-			return false;
-		else return (year % 4 == 0);
+	if (year>1582)
+	{
+		if (year % 100 == 0)
+			return (year % 400 == 0);
+		else
+			return (year % 4 == 0);
 	}
 	else
-		return (year % 4 == 0);
+		return (imod(year, 4) == (year > 0 ? 0 : 3) );
 }
 
 // Find day number for date in year.
@@ -1705,8 +1688,7 @@ double getDeltaTByReingoldDershowitz(const double jDay)
 	}
 	else if ((year >= 1800) && (year <= 1986))
 	{
-		// FIXME: This part should be check and maybe partially rewrited (gregorian-date-difference?)
-		//        because this part gives the strange values of DeltaT
+		// FIXME: This part should be check because this part gives the strange values of DeltaT (see unit tests)
 		double c = (getFixedFromGregorian(1900, 1, 1)-getFixedFromGregorian(year, 7, 1))/36525.;
 
 		if (year >= 1900) // [1900..1986]
@@ -2290,10 +2272,9 @@ float *ComputeCosSinRhoZone(const float dRho, const unsigned int segments, const
 int getFixedFromGregorian(const int year, const int month, const int day)
 {
 	int y = year - 1;
-	int r = 365*y + static_cast<int>(std::floor(y/4.) - std::floor(y/100.) + std::floor(y/400.) + std::floor((367 * month - 362)/12.));
+	int r = 365*y + intFloorDiv(y, 4) - intFloorDiv(y, 100) + intFloorDiv(y, 400) + (367*month-362)/12 + day;
 	if (month>2)
-		r -= isLeapYear(year) ? 1 : 2;
-	r += day;
+		r += (isLeapYear(year) ? -1 : -2);
 
 	return r;
 }
@@ -2326,6 +2307,11 @@ int compareVersions(const QString v1, const QString v2)
 int gcd(int a, int b)
 {
 	return b ? gcd(b, a % b) : a;
+}
+
+int lcm(int a, int b)
+{
+	return (a*b/gcd(a, b));
 }
 
 //! Uncompress gzip or zlib compressed data.

@@ -3,12 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Susanna Pujol, 2020
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2020-11-21 18:12+0700\n"
+"POT-Creation-Date: 2021-03-16 22:04+0700\n"
 "PO-Revision-Date: 2020-01-06 16:35+0000\n"
+"Last-Translator: Susanna Pujol, 2020\n"
 "Language-Team: Catalan (https://www.transifex.com/stellarium/teams/80998/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,9 +21,391 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. type: Content of: <h1>
+#: ../../skycultures/al-sufi/description.en.utf8:1
+msgid "Al-Sufi (\"Book of Fixed Stars\")"
+msgstr ""
+
+#. type: Content of: <p>
+#: ../../skycultures/al-sufi/description.en.utf8:3
+msgid ""
+"The Book of Fixed Stars was written shortly before 964 AD. Dr. Paul "
+"Kunitzsch described it as \"the most outstanding among the works of the "
+"prominent astronomer Abu 'l-Ḥusayn 'Abd al-Raḥmān ibn 'Umar al-Şūfi (born in"
+" Rayy, 903; died 986), referred to as al-Sufi. In it, al-Şūfī treats the 48 "
+"classical constellations, which were established and transmitted in "
+"Ptolemy's Almagest. The description of each constellation comprises the "
+"following four sections: first, a general discussion of the constellation "
+"and its individual stars; this section also includes alŞūfi's criticism of "
+"the Ptolemaic tradition and notices of his own observations. Second, a "
+"record of the indigenous Arabic star names falling under that constellation,"
+" and the exact identification of the respective stars with the corresponding"
+" Ptolemaic stars. Third, two drawings of the constellation, one as it is "
+"seen on a celestial globe, and the other one as it is seen in the sky. "
+"Fourth, a table of the stars making up that constellation, giving a verbal "
+"description of each star's location and its longitude, latitude, and "
+"magnitude. This table closely follows the arrangement of Ptolemy's star "
+"catalogue in the Almagest.\" <sup><a href=\"#footnote-1\">[1]</a></sup>. In "
+"addition to the four sections of each constellation mentioned by dr. "
+"Kunitzsch, Al-Sufi would identify stars within the 6 magnitudes that were "
+"neglected by Ptolemy, but he did not catalogue them and was faithful to "
+"Ptolemy star catalog."
+msgstr ""
+
+#. type: Content of: <p>
+#: ../../skycultures/al-sufi/description.en.utf8:6
+msgid ""
+"An important aspect of the general discussion section is Al-Sufi method of "
+"facilitating the star identification. He describes each individual star in "
+"more than way: By the star position related to the constellation figure, by "
+"its magnitude, by the asterism it forms with other stars like triangle or "
+"arc shapes, sometimes by the star position related to the Milky way, and by "
+"the angular distance from a close by star. I have counted more than 700 "
+"angular distances measured by al-Sufi in his book. The units he uses for "
+"angular distances are cubits, spear length, man-height, span, and finger. "
+"Al-Sufi explicitly said in his book that a cubit is equal to two degrees and"
+" 20 minutes <sup><a href=\"#footnote-2\">[2]</a></sup>. For the other units,"
+" Schjellerup concluded some values, but tracking the 700 measurements, I "
+"came up with different values. The following table summarizes the units and "
+"relationship to the cubit value from Schjellerup<sup><a "
+"href=\"#footnote-3\">[3]</a></sup> and from my research."
+msgstr ""
+
+#. type: Content of: <p><h2>
+#: ../../skycultures/al-sufi/description.en.utf8:7
+msgid "Angular distance units used by Al-Sufi"
+msgstr ""
+
+#. type: Content of: <p><p><p><p><p><p><p><p><p>
+#: ../../skycultures/al-sufi/description.en.utf8:11
+#: ../../skycultures/maya/description.en.utf8:13
+#: ../../skycultures/maya/description.en.utf8:16
+#: ../../skycultures/maya/description.en.utf8:19
+#: ../../skycultures/maya/description.en.utf8:20
+#: ../../skycultures/maya/description.en.utf8:23
+#: ../../skycultures/maya/description.en.utf8:24
+#: ../../skycultures/maya/description.en.utf8:27
+#: ../../skycultures/maya/description.en.utf8:28
+#: ../../skycultures/maya/description.en.utf8:31
+#: ../../skycultures/maya/description.en.utf8:34
+#: ../../skycultures/maya/description.en.utf8:37
+#: ../../skycultures/maya/description.en.utf8:40
+#: ../../skycultures/maya/description.en.utf8:43
+#: ../../skycultures/maya/description.en.utf8:56
+#: ../../skycultures/maya/description.en.utf8:61
+msgid "&nbsp;"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:12
+msgid "<b>Schjellerup</b>"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:13
+msgid "<b>Khalid</b>"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:16
+msgid "<b>unit</b>"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:17
+#: ../../skycultures/al-sufi/description.en.utf8:19
+msgid "<b>cubits</b>"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:18
+#: ../../skycultures/al-sufi/description.en.utf8:20
+msgid "<b>Angular Value</b>"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:23
+msgid "spear"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:24
+#: ../../skycultures/al-sufi/description.en.utf8:26
+msgid "6 cubits"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:25
+#: ../../skycultures/al-sufi/description.en.utf8:27
+msgid "14°"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:30
+msgid "Man-Height"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:33
+msgid "3 cubits"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:34
+msgid "7°"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:37
+msgid "cubit"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:38
+#: ../../skycultures/al-sufi/description.en.utf8:40
+msgid "1 cubit"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:39
+#: ../../skycultures/al-sufi/description.en.utf8:41
+msgid "2°20'"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:44
+msgid "span"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:45
+msgid "1/3 of a cubit"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:46
+msgid "47'"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:47
+msgid "1/2 of a cubit"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:48
+msgid "1°10'"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:51
+msgid "finger"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:52
+msgid "1/32 of a cubit"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:53
+msgid "4.4'"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:54
+msgid "1/16 of a cubit"
+msgstr ""
+
+#. type: Content of: <p><table><tr><td>
+#: ../../skycultures/al-sufi/description.en.utf8:55
+msgid "8.75'"
+msgstr ""
+
+#. type: Content of: <p>
+#: ../../skycultures/al-sufi/description.en.utf8:60
+msgid ""
+"Another important aspect of Al-Sufi book is his record of the indigenous "
+"Arabic star names falling under each constellation, and the exact "
+"identification of the respective stars with the corresponding Ptolemaic "
+"stars. This means that we are looking at two layers of stars knowledge at "
+"the same time: the Ptolemaic one and the indigenous Arab one."
+msgstr ""
+
+#. type: Content of: <h2>
+#: ../../skycultures/al-sufi/description.en.utf8:62
+msgid "The Sky Culture"
+msgstr ""
+
+#. type: Content of: <p>
+#: ../../skycultures/al-sufi/description.en.utf8:64
+msgid ""
+"This sky culture is a result of a research done on several manuscripts of "
+"the book, oldest of which is the <a "
+"href=\"https://iiif.bodleian.ox.ac.uk/iiif/viewer/c1caa84c-f6d2-483f-"
+"9eb4-2439cccdc801#?c=0&m=0&s=0&cv=25&r=0&xywh=-4815%2C-378%2C14782%2C7535\" "
+"class='external text' rel=\"nofollow\">Oxford, Bodleian Library Ms. Marsh "
+"144 dated 1009 AD</a>."
+msgstr ""
+
+#. type: Content of: <p>
+#: ../../skycultures/al-sufi/description.en.utf8:67
+msgid ""
+"First, the manuscripts of the Book of Fixed Stars were critically edited, "
+"and the text was produced. Second, each member star of the 48 constellations"
+" was identified according to Al-Sufi description, and new tables were built "
+"including modern star designations from the Hipparcos, Bright stars, and "
+"Bayer catalogues. Third, Arab indigenous star names were collected and "
+"identified as mapped by Al-Sufi to the Ptolemaic ones. All the previous "
+"steps were included in a book published digitally of the Book of Fixed Stars"
+" plus explanations and commentary by Khalid Al-Ajaji<sup><a "
+"href=\"#footnote-4\">[4]</a></sup>."
+msgstr ""
+
+#. type: Content of: <p>
+#: ../../skycultures/al-sufi/description.en.utf8:70
+msgid ""
+"The sky culture stick figures of the constellations are the images in the "
+"Ulugh Beg manuscript of the Book of Fixed Stars, extracted, and adapted for "
+"Stellarium by Mr. Kutaibaa Akraa <sup><a href=\"#footnote-5\">[5]</a></sup>."
+" The star names file includes the star number in the constellation as the "
+"primary star name and the description of the star in the tables as a "
+"secondary name. For example, Polaris primary name that is displayed with the"
+" star is: UMi1, UMi being Ursa Minor and 1 is the first star of this "
+"constellation. If the star is selected other secondary names are displayed, "
+"which will display \"The star on the end of the tail\" on the top of the "
+"screen. The constellation lines are constructed according to the "
+"constellation shapes with an attempt to include most of the member stars. "
+"For indigenous Arab star knowledge, individual star names were added to the "
+"star file as secondary names, while names of group of stars were defined "
+"through asterism names and asterism lines files."
+msgstr ""
+
+#. type: Content of: <p>
+#: ../../skycultures/al-sufi/description.en.utf8:73
+msgid ""
+"The translation of star descriptions from Arabic into English was extracted "
+"from Ernie Wright website<sup><a href=\"#footnote-6\">[6]</a></sup> which "
+"was transcribed from Toomer's translation of the Almagest<sup><a "
+"href=\"#footnote-7\">[7]</a></sup>. The translation was modified in a few "
+"places to agree with Al-Sufi wording."
+msgstr ""
+
+#. type: Content of: <p>
+#: ../../skycultures/al-sufi/description.en.utf8:77
+msgid ""
+"The single source of the sky culture is the Book of Fixed Stars and the "
+"objective is to give a faithful representation of the book content."
+msgstr ""
+
+#. type: Content of: <h3>
+#: ../../skycultures/al-sufi/description.en.utf8:79
+#: ../../skycultures/almagest/description.en.utf8:473
+#: ../../skycultures/mulapin/description.en.utf8:549
+#: ../../skycultures/seleucid/description.en.utf8:464
+msgid "Fair Use"
+msgstr ""
+
+#. type: Content of: <p>
+#: ../../skycultures/al-sufi/description.en.utf8:80
+msgid ""
+"This sky culture is provided for free under CC BY-ND 4.0 International "
+"Public License (share-alike, do not change it without consulting the "
+"contributors, and cite the contributors). The author wishes that this work "
+"be cited according to the common rules."
+msgstr ""
+
+#. type: Content of: <p><h3>
+#: ../../skycultures/al-sufi/description.en.utf8:82
+#: ../../skycultures/anutan/description.en.utf8:45
+#: ../../skycultures/arabic_moon_stations/description.en.utf8:239
+#: ../../skycultures/aztec/description.en.utf8:61
+#: ../../skycultures/chinese_contemporary/description.en.utf8:23
+#: ../../skycultures/chinese_medieval/description.en.utf8:45
+#: ../../skycultures/egyptian/description.en.utf8:17
+#: ../../skycultures/korean/description.en.utf8:12
+#: ../../skycultures/maori/description.en.utf8:10
+#: ../../skycultures/mulapin/description.en.utf8:568
+#: ../../skycultures/navajo/description.en.utf8:17
+#: ../../skycultures/norse/description.en.utf8:9
+#: ../../skycultures/sami/description.en.utf8:63
+#: ../../skycultures/sardinian/description.en.utf8:11
+#: ../../skycultures/seleucid/description.en.utf8:475
+#: ../../skycultures/tongan/description.en.utf8:85
+#: ../../skycultures/tupi/description.en.utf8:23
+msgid "Author"
+msgstr "Autoria"
+
+#. type: Content of: <p>
+#: ../../skycultures/al-sufi/description.en.utf8:83
+msgid ""
+"Book of Fixed Stars sky culture was compiled and added to Stellarium by "
+"Khalid Al-Ajaji: turath.alfalak@gmail.com"
+msgstr ""
+
+#. type: Content of: <h3>
+#: ../../skycultures/al-sufi/description.en.utf8:85
+#: ../../skycultures/chinese/description.en.utf8:2965
+#: ../../skycultures/sami/description.en.utf8:57
+msgid "Notes"
+msgstr ""
+
+#. type: Content of: <p>
+#: ../../skycultures/al-sufi/description.en.utf8:86
+msgid ""
+"[1] The Arabs and the Stars, Paul Kunitzsch,The Astronomer Abu'L-Husayn Al-"
+"Sufi And His Book On The Constellations, XI, pg 57. Northampton [England]: "
+"Variorum Reprints, 1989."
+msgstr ""
+
+#. type: Content of: <p>
+#: ../../skycultures/al-sufi/description.en.utf8:88
+msgid "[2] See Al-Sufi description in his book of the 14th star in Auriga."
+msgstr ""
+
+#. type: Content of: <p>
+#: ../../skycultures/al-sufi/description.en.utf8:90
+msgid ""
+"[3] DESCRIPTIONS DES ETOILES FIXES, traduction littérale avec des notes par "
+"H C F C Schjellerup, St Petersbourg, 1874, pg 26-27."
+msgstr ""
+
+#. type: Content of: <p>
+#: ../../skycultures/al-sufi/description.en.utf8:92
+msgid ""
+"[4] <a "
+"href=\"https://drive.google.com/drive/folders/1s6JXzftwjMQ5rgZoGE3718EtBLBZtjzr?usp=sharing\""
+" class='external text' rel=\"nofollow\">Book of Fixed Stars: Critical "
+"edition with commentary by Khalid AlAjaji</a>."
+msgstr ""
+
+#. type: Content of: <p>
+#: ../../skycultures/al-sufi/description.en.utf8:94
+msgid ""
+"[5] <a href=\"https://gallica.bnf.fr/ark:/12148/btv1b60006156.r=.langEN\" "
+"class='external text' rel=\"nofollow\">Oulough Beg copy of ʿAbd al-Raḥmān "
+"ibn ʿUmar al-Ṣūfī. Kitāb ṣuwar al-kawākib al-ṯābita, Paris, Bibliothèque "
+"nationale de France Ms. Arabe 5036</a>."
+msgstr ""
+
+#. type: Content of: <p>
+#: ../../skycultures/al-sufi/description.en.utf8:96
+msgid ""
+"[6] <a href=\"http://www.etwright.org/astro/almagest.html#cat\" "
+"class='external text' rel=\"nofollow\">Seeing Ancient Stars, Visualization "
+"of the Almagest Catalog</a>."
+msgstr ""
+
+#. type: Content of: <p>
+#: ../../skycultures/al-sufi/description.en.utf8:98
+msgid ""
+"[7] Ptolemy’s ALMAGEST, G. J. Toomer, Princeton University Press, 2nd ed., "
+"1998."
+msgstr ""
+
+#. type: Content of: <h1>
 #: ../../skycultures/almagest/description.en.utf8:1
 msgid "Almagest"
-msgstr ""
+msgstr "Almagest"
 
 #. type: Content of: <p>
 #: ../../skycultures/almagest/description.en.utf8:3
@@ -72,13 +458,15 @@ msgstr ""
 #. type: Content of: <h2>
 #: ../../skycultures/almagest/description.en.utf8:40
 msgid "How this sky culture was made"
-msgstr ""
+msgstr "Creació de la cultura del cel"
 
 #. type: Content of: <p>
 #: ../../skycultures/almagest/description.en.utf8:42
 msgid ""
 "The process can be described as sketched here with the example of Corvus:"
 msgstr ""
+"Aquest procés es pot descriure tal com s'indica a l'exemple mostrat a "
+"continuació a Corvus:"
 
 #. type: Content of: <p>
 #: ../../skycultures/almagest/description.en.utf8:45
@@ -127,12 +515,12 @@ msgstr ""
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:73
 msgid "<b>Original name</b>"
-msgstr ""
+msgstr "<b>Nom original</b>"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:74
 msgid "<b>Translation</b> (direct)"
-msgstr ""
+msgstr "<b>Traducció</b> (directe)"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:75
@@ -460,7 +848,7 @@ msgstr ""
 #: ../../skycultures/almagest/description.en.utf8:162
 #: ../../skycultures/almagest/description.en.utf8:163
 msgid "Perseus"
-msgstr ""
+msgstr "Perseu"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:164
@@ -808,7 +1196,7 @@ msgstr ""
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:266
 msgid "Twins"
-msgstr ""
+msgstr "Bessons"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:267
@@ -825,7 +1213,7 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:115
 #: ../../skycultures/seleucid/description.en.utf8:71
 msgid "Cnc"
-msgstr ""
+msgstr "Càn"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:273
@@ -840,7 +1228,7 @@ msgstr ""
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:275
 msgid "Cancer"
-msgstr ""
+msgstr "Càncer"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:276
@@ -853,7 +1241,7 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:121
 #: ../../skycultures/seleucid/description.en.utf8:77
 msgid "Leo"
-msgstr ""
+msgstr "Lle"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:281
@@ -863,7 +1251,7 @@ msgstr ""
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:282
 msgid "Lion"
-msgstr ""
+msgstr "Lleó"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:284
@@ -905,7 +1293,7 @@ msgstr ""
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:296
 msgid "Lib"
-msgstr ""
+msgstr "Bal"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:297
@@ -920,7 +1308,7 @@ msgstr ""
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:299
 msgid "Libra"
-msgstr ""
+msgstr "Balança"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:300
@@ -934,7 +1322,7 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:496
 #: ../../skycultures/seleucid/description.en.utf8:418
 msgid "Sco"
-msgstr ""
+msgstr "Esco"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:305
@@ -944,12 +1332,12 @@ msgstr ""
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:306
 msgid "Scorpion"
-msgstr ""
+msgstr "Escorpí"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:307
 msgid "Scorpius"
-msgstr ""
+msgstr "Escorpí"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:309
@@ -1049,7 +1437,7 @@ msgstr ""
 #: ../../skycultures/seleucid/description.en.utf8:225
 #: ../../skycultures/seleucid/description.en.utf8:231
 msgid "Psc"
-msgstr ""
+msgstr "Pei"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:337
@@ -1064,7 +1452,7 @@ msgstr ""
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:339
 msgid "Pisces"
-msgstr ""
+msgstr "Peixos"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:341
@@ -1280,17 +1668,17 @@ msgstr ""
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:402
 msgid "Water Snake"
-msgstr ""
+msgstr "Serp d'aigua"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:403
 msgid "Hydra"
-msgstr ""
+msgstr "Hidra"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:408
 msgid "Crt"
-msgstr ""
+msgstr "Crà"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:409
@@ -1305,7 +1693,7 @@ msgstr ""
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:411
 msgid "Crater"
-msgstr ""
+msgstr "Cràter"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/almagest/description.en.utf8:413
@@ -1514,13 +1902,6 @@ msgstr ""
 msgid "Toomer, G. J.: Ptolemy's Almagest, Duckworth, London, 1984"
 msgstr ""
 
-#. type: Content of: <h3>
-#: ../../skycultures/almagest/description.en.utf8:473
-#: ../../skycultures/mulapin/description.en.utf8:549
-#: ../../skycultures/seleucid/description.en.utf8:464
-msgid "Fair Use"
-msgstr ""
-
 #. type: Content of: <p>
 #: ../../skycultures/almagest/description.en.utf8:474
 msgid ""
@@ -1534,7 +1915,7 @@ msgstr ""
 #. type: Content of: <h2>
 #: ../../skycultures/almagest/description.en.utf8:479
 msgid "Thanks"
-msgstr ""
+msgstr "Moltes gràcies"
 
 #. type: Content of: <p>
 #: ../../skycultures/almagest/description.en.utf8:480
@@ -1559,7 +1940,7 @@ msgstr ""
 #: ../../skycultures/vanuatu_netwar/description.en.utf8:59
 #: ../../skycultures/western_rey/description.en.utf8:78
 msgid "Authors"
-msgstr ""
+msgstr "Autors"
 
 #. type: Content of: <p>
 #: ../../skycultures/almagest/description.en.utf8:483
@@ -1675,7 +2056,7 @@ msgstr ""
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/anutan/description.en.utf8:15
-msgid "Group of four small stars just east of Manu's Body"
+msgid "Group of four small starts just east of Manu's Body"
 msgstr ""
 
 #. type: Content of: <table><tr><td>
@@ -1782,7 +2163,7 @@ msgstr ""
 
 #. type: Content of: <table><tr>
 #: ../../skycultures/anutan/description.en.utf8:22
-msgid "Pegasus's front legs and shoulder"
+msgid "Pegasus's front legs and Shoulder"
 msgstr ""
 
 #. type: Content of: <table><tr><td>
@@ -1892,7 +2273,7 @@ msgstr ""
 #. type: Content of: <table><tr>
 #: ../../skycultures/anutan/description.en.utf8:30
 msgid "Milky way"
-msgstr ""
+msgstr "Via Làctia"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/anutan/description.en.utf8:31
@@ -1902,12 +2283,12 @@ msgstr ""
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/anutan/description.en.utf8:31
 msgid "The Running Cloud"
-msgstr ""
+msgstr "El núvol que corre"
 
 #. type: Content of: <table><tr>
 #: ../../skycultures/anutan/description.en.utf8:31
 msgid "Large Magellanic Cloud"
-msgstr ""
+msgstr "Gran Núvol de Magallanes"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/anutan/description.en.utf8:32
@@ -1922,7 +2303,7 @@ msgstr ""
 #. type: Content of: <table><tr>
 #: ../../skycultures/anutan/description.en.utf8:32
 msgid "Small Magellanic Cloud"
-msgstr ""
+msgstr "Petit Núvol de Magallanes"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/anutan/description.en.utf8:33
@@ -1964,7 +2345,7 @@ msgstr ""
 #: ../../skycultures/lokono/description.en.utf8:381
 #: ../../skycultures/tongan/description.en.utf8:30
 msgid "References"
-msgstr ""
+msgstr "Referències"
 
 #. type: Content of: <ul><li>
 #: ../../skycultures/anutan/description.en.utf8:39
@@ -1980,26 +2361,6 @@ msgid ""
 "Rensch, K.H. (1994). \"Fish Names of Western Polynesia: Futuna, Niue, Samoa,"
 " Tokelau, Tonga, Tuvalu, Uvea, Outliers\" Archipelago Press, the University "
 "of California : ISBN 9780959378771."
-msgstr ""
-
-#. type: Content of: <p><h3>
-#: ../../skycultures/anutan/description.en.utf8:45
-#: ../../skycultures/arabic_moon_stations/description.en.utf8:239
-#: ../../skycultures/aztec/description.en.utf8:61
-#: ../../skycultures/chinese_contemporary/description.en.utf8:23
-#: ../../skycultures/chinese_medieval/description.en.utf8:45
-#: ../../skycultures/egyptian/description.en.utf8:17
-#: ../../skycultures/korean/description.en.utf8:12
-#: ../../skycultures/maori/description.en.utf8:10
-#: ../../skycultures/mulapin/description.en.utf8:568
-#: ../../skycultures/navajo/description.en.utf8:17
-#: ../../skycultures/norse/description.en.utf8:9
-#: ../../skycultures/sami/description.en.utf8:63
-#: ../../skycultures/sardinian/description.en.utf8:11
-#: ../../skycultures/seleucid/description.en.utf8:475
-#: ../../skycultures/tongan/description.en.utf8:85
-#: ../../skycultures/tupi/description.en.utf8:23
-msgid "Author"
 msgstr ""
 
 #. type: Content of: <p>
@@ -2032,9 +2393,9 @@ msgstr ""
 #. type: Content of: <p>
 #: ../../skycultures/arabic/description.en.utf8:3
 msgid ""
-"The depiction of Orion, as seen from Earth (left) and a mirror-image, from a"
-" 13th-century copy of al-Sufi's Book of the Fixed Stars. In this version, "
-"Orion's shield has become a long sleeve, typical of Islamic dress.</a>"
+"</a> The depiction of Orion, as seen from Earth (left) and a mirror-image, "
+"from a 13th-century copy of al-Sufi's Book of the Fixed Stars. In this "
+"version, Orion's shield has become a long sleeve, typical of Islamic dress."
 msgstr ""
 
 #. type: Content of: <p>
@@ -2066,7 +2427,7 @@ msgstr ""
 #: ../../skycultures/western/description.en.utf8:4
 #: ../../skycultures/western_SnT/description.en.utf8:4
 msgid "Constellations"
-msgstr ""
+msgstr "Constelacions"
 
 #. type: Content of: <p>
 #: ../../skycultures/arabic/description.en.utf8:7
@@ -2090,26 +2451,20 @@ msgstr ""
 #. type: Content of: <p>
 #: ../../skycultures/arabic/description.en.utf8:8
 msgid ""
-"<a href=\"http://www.atlascoelestis.com/alsufi%20Suwar.htm\" "
-"target=\"_top\">In this link you can see the beautiful illustrations of "
-"constellations and sample star tables in an old manuscript of Al-Sufi "
-"book.</a>"
-msgstr ""
-
-#. type: Content of: <p><a>
-#: ../../skycultures/arabic/description.en.utf8:9
-msgid "<a href=\"http://www.atlascoelestis.com/alsufi%20Suwar.htm\">"
+"<a href=\"http://www.atlascoelestis.com/alsufi%20Suwar.htm\">In this link "
+"you can see the beautiful illustrations of constellations and sample star "
+"tables in an old manuscript of Al-Sufi book.</a>"
 msgstr ""
 
 #. type: Content of: <p>
 #: ../../skycultures/arabic/description.en.utf8:9
-msgid "Cetus as seen in the sky</a>"
+msgid "Cetus as seen in the sky"
 msgstr ""
 
 #. type: Content of: <h3>
 #: ../../skycultures/arabic/description.en.utf8:10
 msgid "The origin of star names"
-msgstr ""
+msgstr "L'origen dels noms de les estrelles"
 
 #. type: Content of: <p>
 #: ../../skycultures/arabic/description.en.utf8:11
@@ -2201,7 +2556,7 @@ msgstr ""
 #: ../../skycultures/western_SnT/description.en.utf8:12
 #: ../../skycultures/western_rey/description.en.utf8:73
 msgid "External links"
-msgstr ""
+msgstr "Enllaços externs"
 
 #. type: Content of: <ul><li>
 #: ../../skycultures/arabic/description.en.utf8:19
@@ -2288,7 +2643,7 @@ msgstr ""
 #. type: Content of: <h3>
 #: ../../skycultures/arabic/description.en.utf8:32
 msgid "Source"
-msgstr ""
+msgstr "Origen"
 
 #. type: Content of: <ul><li>
 #: ../../skycultures/arabic/description.en.utf8:34
@@ -2342,7 +2697,7 @@ msgstr ""
 #. type: Content of: <h3>
 #: ../../skycultures/arabic_moon_stations/description.en.utf8:12
 msgid "Historical Overview"
-msgstr ""
+msgstr "Resum històric"
 
 #. type: Content of: <p>
 #: ../../skycultures/arabic_moon_stations/description.en.utf8:14
@@ -2407,7 +2762,7 @@ msgstr ""
 #. type: Content of: <h3>
 #: ../../skycultures/arabic_moon_stations/description.en.utf8:61
 msgid "Current Use of Moon Stations"
-msgstr ""
+msgstr "Usos actuals de les estacions lunars"
 
 #. type: Content of: <p>
 #: ../../skycultures/arabic_moon_stations/description.en.utf8:62
@@ -2428,7 +2783,7 @@ msgstr ""
 #. type: Content of: <h3>
 #: ../../skycultures/arabic_moon_stations/description.en.utf8:75
 msgid "Identification of the Moon Stations"
-msgstr ""
+msgstr "Identificació de les estacions lunars"
 
 #. type: Content of: <p>
 #: ../../skycultures/arabic_moon_stations/description.en.utf8:76
@@ -2621,7 +2976,7 @@ msgstr ""
 #. type: Content of: <h3>
 #: ../../skycultures/arabic_moon_stations/description.en.utf8:189
 msgid "The 28 stations"
-msgstr ""
+msgstr "Les 28 estacions"
 
 #. type: Content of: <ol><li>
 #: ../../skycultures/arabic_moon_stations/description.en.utf8:191
@@ -2911,6 +3266,8 @@ msgid ""
 "[7] <a href=\"http://www.uranos.fr/DOCU_03_T03.htm\" class='external text' "
 "rel=\"nofollow\">http://www.uranos.fr/DOCU_03_T03.htm</a>"
 msgstr ""
+"[7] <a href=\"http://www.uranos.fr/DOCU_03_T03.htm\" class='external text' "
+"rel=\"nofollow\">http://www.uranos.fr/DOCU_03_T03.htm</a>"
 
 #. type: Content of: <hr><p>
 #: ../../skycultures/arabic_moon_stations/description.en.utf8:251
@@ -3211,7 +3568,7 @@ msgstr ""
 #: ../../skycultures/aztec/description.en.utf8:29
 #: ../../skycultures/mongolian/description.en.utf8:237
 msgid "Conclusion"
-msgstr ""
+msgstr "Conclusió"
 
 #. type: Content of: <p>
 #: ../../skycultures/aztec/description.en.utf8:30
@@ -3557,7 +3914,7 @@ msgstr ""
 #. type: Content of: <p>
 #: ../../skycultures/belarusian/description.en.utf8:45
 msgid "Illustrations by Johan Meuris."
-msgstr ""
+msgstr "Il·lustracions de Johan Meuris."
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/boorong/description.en.utf8:1
@@ -3596,12 +3953,12 @@ msgstr ""
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/boorong/description.en.utf8:14
 msgid "<b>Name</b>"
-msgstr ""
+msgstr "<b>Nom</b>"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/boorong/description.en.utf8:15
 msgid "<b>Explanation</b>"
-msgstr ""
+msgstr "<b>Explicació</b>"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/boorong/description.en.utf8:16
@@ -3773,7 +4130,7 @@ msgstr ""
 #: ../../skycultures/mongolian/description.en.utf8:141
 #: ../../skycultures/tongan/description.en.utf8:53
 msgid "Sun"
-msgstr ""
+msgstr "Sol"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/boorong/description.en.utf8:79
@@ -3888,7 +4245,7 @@ msgstr ""
 #: ../../skycultures/lokono/description.en.utf8:21
 #: ../../skycultures/tongan/description.en.utf8:52
 msgid "Moon"
-msgstr ""
+msgstr "Lluna"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/boorong/description.en.utf8:119
@@ -3938,7 +4295,7 @@ msgstr ""
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/boorong/description.en.utf8:136
 msgid "Shooting star"
-msgstr ""
+msgstr "Estrelles fugaces"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/boorong/description.en.utf8:139
@@ -4100,7 +4457,7 @@ msgstr ""
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/boorong/description.en.utf8:195
 msgid "Galaxy"
-msgstr ""
+msgstr "Galàxia"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/boorong/description.en.utf8:196
@@ -4108,7 +4465,7 @@ msgstr ""
 #: ../../skycultures/siberian/description.en.utf8:7
 #: ../../skycultures/tongan/description.en.utf8:47
 msgid "Milky Way"
-msgstr ""
+msgstr "Via Làctia"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/boorong/description.en.utf8:199
@@ -4178,7 +4535,7 @@ msgstr ""
 #. type: Content of: <h2>
 #: ../../skycultures/chinese/description.en.utf8:1
 msgid "Chinese Traditional Sky Culture"
-msgstr ""
+msgstr "Cultura del cel xinesa tradicional"
 
 #. type: Content of: <p>
 #: ../../skycultures/chinese/description.en.utf8:3
@@ -4197,11 +4554,12 @@ msgid ""
 "star names. A project conducted by community member G.S.K.Lee is now "
 "underway to construct a complete Chinese sky culture set for Stellarium "
 "based on the information inside <i>Complete Studies of Astronomical "
-"Instruments</i> (Chinese: 仪象考成; pinyin: Yíxiàngkǎochéng), an imperial record"
-" of astronomy finished in 1756.It was revised in 1844, published.<i>The "
-"Continuation of Complete Studies of Astronomical Instruments</i> (Chinese: "
-"仪象考成续编; pinyin: Yíxiàngkǎochéng xùbiān), which is the major reference to the"
-" traditional Chinese Xingguans and star names used today."
+"Instruments</i> (Chinese: 仪象考成; pinyin: Yíxiàng kǎochéng), an imperial "
+"record of astronomy finished in 1756.It was revised in 1844, "
+"published.<i>The Continuation of Complete Studies of Astronomical "
+"Instruments</i> (Chinese: 仪象考成续编; pinyin: Yíxiàngkǎochéng xùbiān), which is "
+"the major reference to the traditional Chinese Xingguans and star names used"
+" today."
 msgstr ""
 
 #. type: Content of: <p>
@@ -4241,7 +4599,7 @@ msgstr ""
 #. type: Content of: <h3>
 #: ../../skycultures/chinese/description.en.utf8:11
 msgid "Sun, Moon and Planets"
-msgstr ""
+msgstr "El Sol, la Lluna i els planetes"
 
 #. type: Content of: <p>
 #: ../../skycultures/chinese/description.en.utf8:13
@@ -4299,10 +4657,12 @@ msgid ""
 "The Xingguans are generally smaller than the constellations of Hellenistic "
 "tradition. The Song dynasty (13th-century), Suzhou Stone Carving "
 "Astronomical Map shows a total of 283 Xingguans, comprising a total of 1,565"
-" individual stars. The Xingguan are divided into 31 regions, the Twenty-"
+" individual stars. The Xingguans are divided into 31 regions, the Twenty-"
 "Eight Mansions along the ecliptic, and the Three Enclosures of the northern "
-"sky. Due to the precession, six Xingguans near the southern horizon became "
-"difficult to see and were lost."
+"sky. Due to the influence of precession, six Xingguans near the southern "
+"horizon are getting more and more south. They were no longer easy to be "
+"observed by astronomers in the Ming and Qing Dynasties, so they were no "
+"longer recorded in <i>Complete Studies of Astronomical Instruments</i>."
 msgstr ""
 
 #. type: Content of: <p><p>
@@ -4317,8 +4677,8 @@ msgstr ""
 #. type: Content of: <p><p>
 #: ../../skycultures/chinese/description.en.utf8:23
 msgid ""
-"<i>Complete Studies of Astronomical Instruments</i> has 300 Xingguans in "
-"total."
+"In this way, <i>Complete Studies of Astronomical Instruments</i> has 300 "
+"Xingguans in total."
 msgstr ""
 
 #. type: Content of: <p><p><p>
@@ -4334,7 +4694,7 @@ msgstr ""
 #: ../../skycultures/western/description.en.utf8:7
 #: ../../skycultures/western_SnT/description.en.utf8:9
 msgid "Star names"
-msgstr ""
+msgstr "Noms de les estrelles"
 
 #. type: Content of: <p><p><p>
 #: ../../skycultures/chinese/description.en.utf8:28
@@ -4348,7 +4708,7 @@ msgstr ""
 #. type: Content of: <p><p><p>
 #: ../../skycultures/chinese/description.en.utf8:29
 msgid ""
-"In the Chinese catalogue, some of the stars are \"principle\" "
+"In the Chinese catalogue, some of the stars are \"Principal\" "
 "(Chinese:正星pinyin:zhèngxīng). These stars were first discovered and well-"
 "known. On the contrary, some of the stars are \"added\" "
 "(Chinese:增星,pinyin:zēngxīng). They were recorded and named in later "
@@ -4545,56 +4905,56 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:75
 msgid "东方苍龙"
-msgstr ""
+msgstr "东方苍龙"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:76
 #: ../../skycultures/chinese/description.en.utf8:1019
 #: ../../skycultures/chinese/description.en.utf8:1026
 msgid "角宿"
-msgstr ""
+msgstr "角宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:77
 #: ../../skycultures/chinese/description.en.utf8:1103
 #: ../../skycultures/chinese/description.en.utf8:1110
 msgid "亢宿"
-msgstr ""
+msgstr "亢宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:78
 #: ../../skycultures/chinese/description.en.utf8:1159
 #: ../../skycultures/chinese/description.en.utf8:1166
 msgid "氐宿"
-msgstr ""
+msgstr "氐宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:79
 #: ../../skycultures/chinese/description.en.utf8:1243
 #: ../../skycultures/chinese/description.en.utf8:1250
 msgid "房宿"
-msgstr ""
+msgstr "房宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:80
 #: ../../skycultures/chinese/description.en.utf8:1306
 #: ../../skycultures/chinese/description.en.utf8:1313
 msgid "心宿"
-msgstr ""
+msgstr "心宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:81
 #: ../../skycultures/chinese/description.en.utf8:1327
 #: ../../skycultures/chinese/description.en.utf8:1334
 msgid "尾宿"
-msgstr ""
+msgstr "尾宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:82
 #: ../../skycultures/chinese/description.en.utf8:1376
 #: ../../skycultures/chinese/description.en.utf8:1383
 msgid "箕宿"
-msgstr ""
+msgstr "箕宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:85
@@ -4728,7 +5088,7 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:384
 #: ../../skycultures/seleucid/description.en.utf8:318
 msgid "46"
-msgstr ""
+msgstr "46"
 
 #. type: Content of: <p><table><tbody><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:109
@@ -4755,7 +5115,7 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:136
 #: ../../skycultures/seleucid/description.en.utf8:92
 msgid "11"
-msgstr ""
+msgstr "11"
 
 #. type: Content of: <p><table><tbody><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:110
@@ -4796,7 +5156,7 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:112
 #: ../../skycultures/seleucid/description.en.utf8:68
 msgid "7"
-msgstr ""
+msgstr "7"
 
 #. type: Content of: <p><table><tbody><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:113
@@ -4879,7 +5239,7 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:82
 #: ../../skycultures/seleucid/description.en.utf8:34
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #. type: Content of: <p><table><tbody><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:114
@@ -4931,7 +5291,7 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:100
 #: ../../skycultures/seleucid/description.en.utf8:54
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #. type: Content of: <p><table><tbody><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:115
@@ -5006,7 +5366,7 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:88
 #: ../../skycultures/seleucid/description.en.utf8:41
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:118
@@ -5014,7 +5374,7 @@ msgstr ""
 #: ../../skycultures/chinese/description.en.utf8:294
 #: ../../skycultures/chinese/description.en.utf8:382
 msgid "Determinative Star"
-msgstr ""
+msgstr "Estrela determinant"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:120
@@ -5062,37 +5422,37 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:131
 msgid "13h25m11.6s"
-msgstr ""
+msgstr "13h25m11,6s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:132
 msgid "14h12m53.8s"
-msgstr ""
+msgstr "14h12m53,8s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:133
 msgid "14h50m52.8s"
-msgstr ""
+msgstr "14h50m52,8s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:134
 msgid "15h58m51.1s"
-msgstr ""
+msgstr "15h58m51,1s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:135
 msgid "16h21m11.3s"
-msgstr ""
+msgstr "16h21m11,3s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:136
 msgid "16h51m52.2s"
-msgstr ""
+msgstr "16h51m52,2s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:137
 msgid "18h05m48.5s"
-msgstr ""
+msgstr "18h05m48,5s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:140
@@ -5105,37 +5465,37 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:142
 msgid "47m42s"
-msgstr ""
+msgstr "47m42s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:143
 msgid "37m59s"
-msgstr ""
+msgstr "37m59s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:144
 msgid "1h07m58s"
-msgstr ""
+msgstr "1h07m58s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:145
 msgid "22m20s"
-msgstr ""
+msgstr "22m20s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:146
 msgid "30m41s"
-msgstr ""
+msgstr "30m41s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:147
 msgid "1h13m57s"
-msgstr ""
+msgstr "1h13m57s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:148
 msgid "39m51s"
-msgstr ""
+msgstr "39m51s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:151
@@ -5148,91 +5508,91 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:153
 msgid "12.10°"
-msgstr ""
+msgstr "12,10°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:154
 msgid "9.63°"
-msgstr ""
+msgstr "9,63°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:155
 msgid "17.24°"
-msgstr ""
+msgstr "17,24°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:156
 msgid "5.67°"
-msgstr ""
+msgstr "5,67°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:157
 msgid "7.78°"
-msgstr ""
+msgstr "7,78°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:158
 msgid "18.76°"
-msgstr ""
+msgstr "18,76°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:159
 msgid "10.11°"
-msgstr ""
+msgstr "10,11°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:163
 msgid "北方玄武"
-msgstr ""
+msgstr "北方玄武"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:164
 #: ../../skycultures/chinese/description.en.utf8:1404
 #: ../../skycultures/chinese/description.en.utf8:1411
 msgid "斗宿"
-msgstr ""
+msgstr "斗宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:165
 #: ../../skycultures/chinese/description.en.utf8:1481
 #: ../../skycultures/chinese/description.en.utf8:1488
 msgid "牛宿"
-msgstr ""
+msgstr "牛宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:166
 #: ../../skycultures/chinese/description.en.utf8:1565
 #: ../../skycultures/chinese/description.en.utf8:1572
 msgid "女宿"
-msgstr ""
+msgstr "女宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:167
 #: ../../skycultures/chinese/description.en.utf8:1628
 #: ../../skycultures/chinese/description.en.utf8:1635
 msgid "虚宿"
-msgstr ""
+msgstr "虚宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:168
 #: ../../skycultures/chinese/description.en.utf8:1705
 #: ../../skycultures/chinese/description.en.utf8:1712
 msgid "危宿"
-msgstr ""
+msgstr "危宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:169
 #: ../../skycultures/chinese/description.en.utf8:1789
 #: ../../skycultures/chinese/description.en.utf8:1796
 msgid "室宿"
-msgstr ""
+msgstr "室宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:170
 #: ../../skycultures/chinese/description.en.utf8:1873
 #: ../../skycultures/chinese/description.en.utf8:1880
 msgid "壁宿"
-msgstr ""
+msgstr "壁宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:174
@@ -5343,7 +5703,7 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:505
 #: ../../skycultures/seleucid/description.en.utf8:427
 msgid "65"
-msgstr ""
+msgstr "65"
 
 #. type: Content of: <p><table><tbody><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:197
@@ -5363,7 +5723,7 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:130
 #: ../../skycultures/seleucid/description.en.utf8:86
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #. type: Content of: <p><table><tbody><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:199
@@ -5391,7 +5751,7 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:118
 #: ../../skycultures/seleucid/description.en.utf8:74
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #. type: Content of: <p><table><tbody><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:203
@@ -5439,7 +5799,7 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:106
 #: ../../skycultures/seleucid/description.en.utf8:62
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:208
@@ -5479,161 +5839,161 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:219
 msgid "18h45m39.4s"
-msgstr ""
+msgstr "18h45m39,4s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:220
 msgid "20h21m0.7s"
-msgstr ""
+msgstr "20h21m0,7s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:221
 msgid "20h47m40.6s"
-msgstr ""
+msgstr "20h47m40,6s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:222
 msgid "21h31m33.5s"
-msgstr ""
+msgstr "21h31m33,5s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:223
 msgid "22h05m47.0s"
-msgstr ""
+msgstr "22h05m47,0s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:224
 msgid "23h04m45.7s"
-msgstr ""
+msgstr "23h04m45,7s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:225
 msgid "00h13m14.2s"
-msgstr ""
+msgstr "00h13m14,2s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:230
 msgid "1h35m21s"
-msgstr ""
+msgstr "1h35m21s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:231
 msgid "26m40s"
-msgstr ""
+msgstr "26m40s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:232
 msgid "43m53s"
-msgstr ""
+msgstr "43m53s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:233
 msgid "34m13s"
-msgstr ""
+msgstr "34m13s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:234
 msgid "58m59s"
-msgstr ""
+msgstr "58m59s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:235
 msgid "1h08s29s"
-msgstr ""
+msgstr "1h08s29s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:236
 msgid "43m58s"
-msgstr ""
+msgstr "43m58s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:241
 msgid "24.19°"
-msgstr ""
+msgstr "24,19°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:242
 msgid "6.76°"
-msgstr ""
+msgstr "6,76°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:243
 msgid "11.13°"
-msgstr ""
+msgstr "11,13°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:244
 msgid "8.68°"
-msgstr ""
+msgstr "8,68°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:245
 msgid "14.96°"
-msgstr ""
+msgstr "14,96°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:246
 msgid "17.37°"
-msgstr ""
+msgstr "17,37°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:247
 msgid "11.15°"
-msgstr ""
+msgstr "11,15°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:251
 msgid "西方白虎"
-msgstr ""
+msgstr "西方白虎"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:252
 #: ../../skycultures/chinese/description.en.utf8:1922
 #: ../../skycultures/chinese/description.en.utf8:1929
 msgid "奎宿"
-msgstr ""
+msgstr "奎宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:253
 #: ../../skycultures/chinese/description.en.utf8:1992
 #: ../../skycultures/chinese/description.en.utf8:1999
 msgid "娄宿"
-msgstr ""
+msgstr "娄宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:254
 #: ../../skycultures/chinese/description.en.utf8:2041
 #: ../../skycultures/chinese/description.en.utf8:2048
 msgid "胃宿"
-msgstr ""
+msgstr "胃宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:255
 #: ../../skycultures/chinese/description.en.utf8:2097
 #: ../../skycultures/chinese/description.en.utf8:2104
 msgid "昴宿"
-msgstr ""
+msgstr "昴宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:256
 #: ../../skycultures/chinese/description.en.utf8:2167
 #: ../../skycultures/chinese/description.en.utf8:2174
 msgid "毕宿"
-msgstr ""
+msgstr "毕宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:257
 #: ../../skycultures/chinese/description.en.utf8:2279
 #: ../../skycultures/chinese/description.en.utf8:2286
 msgid "觜宿"
-msgstr ""
+msgstr "觜宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:258
 #: ../../skycultures/chinese/description.en.utf8:2307
 #: ../../skycultures/chinese/description.en.utf8:2314
 msgid "参宿"
-msgstr ""
+msgstr "参宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:262
@@ -5734,7 +6094,7 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:439
 #: ../../skycultures/seleucid/description.en.utf8:354
 msgid "54"
-msgstr ""
+msgstr "54"
 
 #. type: Content of: <p><table><tbody><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:285
@@ -5771,7 +6131,7 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:124
 #: ../../skycultures/seleucid/description.en.utf8:80
 msgid "9"
-msgstr ""
+msgstr "9"
 
 #. type: Content of: <p><table><tbody><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:289
@@ -5782,7 +6142,7 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:154
 #: ../../skycultures/seleucid/description.en.utf8:110
 msgid "14"
-msgstr ""
+msgstr "14"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:296
@@ -5823,161 +6183,161 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:307
 msgid "00h57m12.3s"
-msgstr ""
+msgstr "00h57m12,3s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:308
 msgid "01h54m38.4s"
-msgstr ""
+msgstr "01h54m38,4s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:309
 msgid "02h43m27.1s"
-msgstr ""
+msgstr "02h43m27,1s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:310
 msgid "03h44m52.5s"
-msgstr ""
+msgstr "03h44m52,5s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:311
 msgid "04h28m37.0s"
-msgstr ""
+msgstr "04h28m37,0s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:312
 msgid "5h35m8.3s"
-msgstr ""
+msgstr "5h35m8,3s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:313
 msgid "05h40m45.5s"
-msgstr ""
+msgstr "05h40m45,5s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:318
 msgid "57m26s"
-msgstr ""
+msgstr "57m26s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:319
 msgid "48m49s"
-msgstr ""
+msgstr "48m49s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:320
 msgid "1h01m26s"
-msgstr ""
+msgstr "1h01m26s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:321
 msgid "43m44s"
-msgstr ""
+msgstr "43m44s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:322
 msgid "1h06m31s"
-msgstr ""
+msgstr "1h06m31s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:323
 msgid "5m32s"
-msgstr ""
+msgstr "5m32s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:324
 msgid "42m12s"
-msgstr ""
+msgstr "42m12s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:329
 msgid "14.57°"
-msgstr ""
+msgstr "14,57°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:330
 msgid "12.38°"
-msgstr ""
+msgstr "12,38°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:331
 msgid "15.58°"
-msgstr ""
+msgstr "15,58°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:332
 msgid "11.09°"
-msgstr ""
+msgstr "11,09°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:333
 msgid "16.87°"
-msgstr ""
+msgstr "16,87°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:334
 msgid "1.40°"
-msgstr ""
+msgstr "1,40°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:335
 msgid "10.70°"
-msgstr ""
+msgstr "10,70°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:339
 msgid "南方朱雀"
-msgstr ""
+msgstr "南方朱雀"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:340
 #: ../../skycultures/chinese/description.en.utf8:2363
 #: ../../skycultures/chinese/description.en.utf8:2370
 msgid "井宿"
-msgstr ""
+msgstr "井宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:341
 #: ../../skycultures/chinese/description.en.utf8:2510
 #: ../../skycultures/chinese/description.en.utf8:2517
 msgid "鬼宿"
-msgstr ""
+msgstr "鬼宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:342
 #: ../../skycultures/chinese/description.en.utf8:2566
 #: ../../skycultures/chinese/description.en.utf8:2573
 msgid "柳宿"
-msgstr ""
+msgstr "柳宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:343
 #: ../../skycultures/chinese/description.en.utf8:2587
 #: ../../skycultures/chinese/description.en.utf8:2594
 msgid "星宿"
-msgstr ""
+msgstr "星宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:344
 #: ../../skycultures/chinese/description.en.utf8:2629
 #: ../../skycultures/chinese/description.en.utf8:2636
 msgid "张宿"
-msgstr ""
+msgstr "张宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:345
 #: ../../skycultures/chinese/description.en.utf8:2650
 #: ../../skycultures/chinese/description.en.utf8:2657
 msgid "翼宿"
-msgstr ""
+msgstr "翼宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:346
 #: ../../skycultures/chinese/description.en.utf8:2671
 #: ../../skycultures/chinese/description.en.utf8:2678
 msgid "轸宿"
-msgstr ""
+msgstr "轸宿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:350
@@ -6086,7 +6446,7 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:360
 #: ../../skycultures/seleucid/description.en.utf8:290
 msgid "42"
-msgstr ""
+msgstr "42"
 
 #. type: Content of: <p><table><tbody><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:373
@@ -6099,7 +6459,7 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:184
 #: ../../skycultures/seleucid/description.en.utf8:140
 msgid "19"
-msgstr ""
+msgstr "19"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:384
@@ -6139,107 +6499,107 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:395
 msgid "6h22m57.6s"
-msgstr ""
+msgstr "6h22m57,6s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:396
 msgid "8h31m35.7s"
-msgstr ""
+msgstr "8h31m35,7s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:397
 msgid "8h37m39.4s"
-msgstr ""
+msgstr "8h37m39,4s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:398
 msgid "09h27m35.2s"
-msgstr ""
+msgstr "09h27m35,2s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:399
 msgid "09h51m28.7s"
-msgstr ""
+msgstr "09h51m28,7s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:400
 msgid "10h59m45.9s"
-msgstr ""
+msgstr "10h59m45,9s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:401
 msgid "12h15m48.4s"
-msgstr ""
+msgstr "12h15m48,4s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:406
 msgid "2h08m38s"
-msgstr ""
+msgstr "2h08m38s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:407
 msgid "6m3s"
-msgstr ""
+msgstr "6m3s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:408
 msgid "49m58s"
-msgstr ""
+msgstr "49m58s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:409
 msgid "23m54s"
-msgstr ""
+msgstr "23m54s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:410
 msgid "1h08m17s"
-msgstr ""
+msgstr "1h08m17s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:411
 msgid "1h16m02s"
-msgstr ""
+msgstr "1h16m02s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:412
 msgid "1h09m23s"
-msgstr ""
+msgstr "1h09m23s"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:417
 msgid "32.63°"
-msgstr ""
+msgstr "32,63°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:418
 msgid "1.54°"
-msgstr ""
+msgstr "1,54°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:419
 msgid "12.67°"
-msgstr ""
+msgstr "12,67°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:420
 msgid "6.06°"
-msgstr ""
+msgstr "6,06°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:421
 msgid "17.32°"
-msgstr ""
+msgstr "17,32°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:422
 msgid "19.29°"
-msgstr ""
+msgstr "19,29°"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:423
 msgid "17.60°"
-msgstr ""
+msgstr "17,60°"
 
 #. type: Content of: <p><p><p><p><p>
 #: ../../skycultures/chinese/description.en.utf8:426
@@ -6300,7 +6660,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:452
 msgid "紫微垣"
-msgstr ""
+msgstr "紫微垣"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:453
@@ -6315,7 +6675,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:459
 msgid "北极"
-msgstr ""
+msgstr "北极"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:460
@@ -6325,12 +6685,12 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:461
 msgid "Northern Pole"
-msgstr ""
+msgstr "Pol Nord"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:466
 msgid "四辅"
-msgstr ""
+msgstr "四辅"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:467
@@ -6424,7 +6784,7 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:94
 #: ../../skycultures/seleucid/description.en.utf8:48
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #. type: Content of: <p><table><tbody><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:470
@@ -6518,12 +6878,12 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:76
 #: ../../skycultures/seleucid/description.en.utf8:28
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:473
 msgid "天乙"
-msgstr ""
+msgstr "天乙"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:474
@@ -6617,12 +6977,12 @@ msgstr ""
 #: ../../skycultures/chinese/description.en.utf8:2864
 #: ../../skycultures/chinese/description.en.utf8:2885
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:480
 msgid "太乙"
-msgstr ""
+msgstr "太乙"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:481
@@ -6637,7 +6997,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:487
 msgid "紫微左垣"
-msgstr ""
+msgstr "紫微左垣"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:488
@@ -6662,12 +7022,12 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:142
 #: ../../skycultures/seleucid/description.en.utf8:98
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:494
 msgid "紫微右垣"
-msgstr ""
+msgstr "紫微右垣"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:495
@@ -6682,7 +7042,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:501
 msgid "阴德"
-msgstr ""
+msgstr "阴德"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:502
@@ -6697,7 +7057,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:508
 msgid "尚书"
-msgstr ""
+msgstr "尚书"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:509
@@ -6712,7 +7072,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:515
 msgid "女史"
-msgstr ""
+msgstr "女史"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:516
@@ -6727,7 +7087,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:522
 msgid "柱史"
-msgstr ""
+msgstr "柱史"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:523
@@ -6742,7 +7102,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:529
 msgid "御女"
-msgstr ""
+msgstr "御女"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:530
@@ -6757,7 +7117,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:536
 msgid "天柱"
-msgstr ""
+msgstr "天柱"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:537
@@ -6772,7 +7132,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:543
 msgid "大理"
-msgstr ""
+msgstr "大理"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:544
@@ -6787,7 +7147,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:550
 msgid "勾陈"
-msgstr ""
+msgstr "勾陈"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:551
@@ -6802,7 +7162,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:557
 msgid "六甲"
-msgstr ""
+msgstr "六甲"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:558
@@ -6817,7 +7177,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:564
 msgid "天皇大帝"
-msgstr ""
+msgstr "天皇大帝"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:565
@@ -6832,7 +7192,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:571
 msgid "五帝内座"
-msgstr ""
+msgstr "五帝内座"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:572
@@ -6847,7 +7207,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:578
 msgid "华盖"
-msgstr ""
+msgstr "华盖"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:579
@@ -6862,7 +7222,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:585
 msgid "杠(附华盖)"
-msgstr ""
+msgstr "杠(附华盖)"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:586
@@ -6877,7 +7237,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:592
 msgid "传舍"
-msgstr ""
+msgstr "传舍"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:593
@@ -6892,7 +7252,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:599
 msgid "内阶"
-msgstr ""
+msgstr "内阶"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:600
@@ -6907,7 +7267,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:606
 msgid "天厨"
-msgstr ""
+msgstr "天厨"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:607
@@ -6922,7 +7282,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:613
 msgid "八谷"
-msgstr ""
+msgstr "八谷"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:614
@@ -6939,12 +7299,12 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:312
 #: ../../skycultures/seleucid/description.en.utf8:235
 msgid "34"
-msgstr ""
+msgstr "34"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:620
 msgid "天棓"
-msgstr ""
+msgstr "天棓"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:621
@@ -6959,7 +7319,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:627
 msgid "内厨"
-msgstr ""
+msgstr "内厨"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:628
@@ -6974,7 +7334,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:634
 msgid "文昌"
-msgstr ""
+msgstr "文昌"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:635
@@ -6989,7 +7349,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:641
 msgid "三师"
-msgstr ""
+msgstr "三师"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:642
@@ -7005,7 +7365,7 @@ msgstr ""
 #: ../../skycultures/chinese/description.en.utf8:648
 #: ../../skycultures/chinese/description.en.utf8:760
 msgid "三公"
-msgstr ""
+msgstr "三公"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:649
@@ -7022,7 +7382,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:655
 msgid "天床"
-msgstr ""
+msgstr "天床"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:656
@@ -7037,7 +7397,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:662
 msgid "太尊"
-msgstr ""
+msgstr "太尊"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:663
@@ -7052,7 +7412,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:669
 msgid "天牢"
-msgstr ""
+msgstr "天牢"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:670
@@ -7067,7 +7427,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:676
 msgid "太阳守"
-msgstr ""
+msgstr "太阳守"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:677
@@ -7082,7 +7442,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:683
 msgid "势"
-msgstr ""
+msgstr "势"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:684
@@ -7097,7 +7457,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:690
 msgid "相"
-msgstr ""
+msgstr "相"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:691
@@ -7112,7 +7472,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:697
 msgid "玄戈"
-msgstr ""
+msgstr "玄戈"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:698
@@ -7127,7 +7487,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:704
 msgid "天理"
-msgstr ""
+msgstr "天理"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:705
@@ -7142,7 +7502,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:711
 msgid "北斗"
-msgstr ""
+msgstr "北斗"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:712
@@ -7165,12 +7525,12 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:166
 #: ../../skycultures/seleucid/description.en.utf8:122
 msgid "16"
-msgstr ""
+msgstr "16"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:718
 msgid "辅(附北斗)"
-msgstr ""
+msgstr "辅(附北斗)"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:719
@@ -7185,7 +7545,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:725
 msgid "天枪"
-msgstr ""
+msgstr "天枪"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:726
@@ -7200,7 +7560,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:732
 msgid "太微垣"
-msgstr ""
+msgstr "太微垣"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:733
@@ -7215,7 +7575,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:739
 msgid "太微左垣"
-msgstr ""
+msgstr "太微左垣"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:740
@@ -7230,7 +7590,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:746
 msgid "太微右垣"
-msgstr ""
+msgstr "太微右垣"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:747
@@ -7245,7 +7605,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:753
 msgid "谒者"
-msgstr ""
+msgstr "谒者"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:754
@@ -7260,7 +7620,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:767
 msgid "九卿"
-msgstr ""
+msgstr "九卿"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:768
@@ -7276,7 +7636,7 @@ msgstr ""
 #: ../../skycultures/chinese/description.en.utf8:774
 #: ../../skycultures/chinese/description.en.utf8:2405
 msgid "五诸侯"
-msgstr ""
+msgstr "五诸侯"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:775
@@ -7292,7 +7652,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:781
 msgid "内屏"
-msgstr ""
+msgstr "内屏"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:782
@@ -7308,7 +7668,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:788
 msgid "五帝座"
-msgstr ""
+msgstr "五帝座"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:789
@@ -7323,7 +7683,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:795
 msgid "幸臣"
-msgstr ""
+msgstr "幸臣"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:796
@@ -7338,7 +7698,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:802
 msgid "太子"
-msgstr ""
+msgstr "太子"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:803
@@ -7354,7 +7714,7 @@ msgstr ""
 #: ../../skycultures/chinese/description.en.utf8:809
 #: ../../skycultures/chinese/description.en.utf8:1299
 msgid "从官"
-msgstr ""
+msgstr "从官"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:810
@@ -7371,7 +7731,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:816
 msgid "郎将"
-msgstr ""
+msgstr "郎将"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:817
@@ -7386,7 +7746,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:823
 msgid "虎贲"
-msgstr ""
+msgstr "虎贲"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:824
@@ -7401,7 +7761,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:830
 msgid "常陈"
-msgstr ""
+msgstr "常陈"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:831
@@ -7416,7 +7776,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:837
 msgid "郎位"
-msgstr ""
+msgstr "郎位"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:838
@@ -7438,12 +7798,12 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:160
 #: ../../skycultures/seleucid/description.en.utf8:116
 msgid "15"
-msgstr ""
+msgstr "15"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:844
 msgid "明堂"
-msgstr ""
+msgstr "明堂"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:845
@@ -7458,7 +7818,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:851
 msgid "灵台"
-msgstr ""
+msgstr "灵台"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:852
@@ -7473,7 +7833,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:858
 msgid "少微"
-msgstr ""
+msgstr "少微"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:859
@@ -7488,7 +7848,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:865
 msgid "长垣"
-msgstr ""
+msgstr "长垣"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:866
@@ -7503,7 +7863,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:872
 msgid "三台"
-msgstr ""
+msgstr "三台"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:873
@@ -7527,12 +7887,12 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:148
 #: ../../skycultures/seleucid/description.en.utf8:104
 msgid "13"
-msgstr ""
+msgstr "13"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:879
 msgid "天市垣"
-msgstr ""
+msgstr "天市垣"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:880
@@ -7547,7 +7907,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:886
 msgid "天市左垣"
-msgstr ""
+msgstr "天市左垣"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:887
@@ -7562,12 +7922,12 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:890
 msgid "48"
-msgstr ""
+msgstr "48"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:893
 msgid "天市右垣"
-msgstr ""
+msgstr "天市右垣"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:894
@@ -7585,12 +7945,12 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:300
 #: ../../skycultures/seleucid/description.en.utf8:216
 msgid "32"
-msgstr ""
+msgstr "32"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:900
 msgid "市楼"
-msgstr ""
+msgstr "市楼"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:901
@@ -7605,7 +7965,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:907
 msgid "车肆"
-msgstr ""
+msgstr "车肆"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:908
@@ -7620,7 +7980,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:914
 msgid "宗正"
-msgstr ""
+msgstr "宗正"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:915
@@ -7635,7 +7995,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:921
 msgid "宗人"
-msgstr ""
+msgstr "宗人"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:922
@@ -7650,7 +8010,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:928
 msgid "宗"
-msgstr ""
+msgstr "宗"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:929
@@ -7665,7 +8025,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:935
 msgid "帛度"
-msgstr ""
+msgstr "帛度"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:936
@@ -7680,7 +8040,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:942
 msgid "屠肆"
-msgstr ""
+msgstr "屠肆"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:943
@@ -7695,7 +8055,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:949
 msgid "候"
-msgstr ""
+msgstr "候"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:950
@@ -7710,7 +8070,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:956
 msgid "帝座"
-msgstr ""
+msgstr "帝座"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:957
@@ -7725,7 +8085,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:963
 msgid "宦者"
-msgstr ""
+msgstr "宦者"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:964
@@ -7740,7 +8100,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:970
 msgid "列肆"
-msgstr ""
+msgstr "列肆"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:971
@@ -7755,7 +8115,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:977
 msgid "斗"
-msgstr ""
+msgstr "斗"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:978
@@ -7770,7 +8130,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:984
 msgid "斛"
-msgstr ""
+msgstr "斛"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:985
@@ -7785,7 +8145,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:991
 msgid "贯索"
-msgstr ""
+msgstr "贯索"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:992
@@ -7800,7 +8160,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:998
 msgid "七公"
-msgstr ""
+msgstr "七公"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:999
@@ -7815,7 +8175,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1005
 msgid "天纪"
-msgstr ""
+msgstr "天纪"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1006
@@ -7832,7 +8192,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1012
 msgid "女床"
-msgstr ""
+msgstr "女床"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1013
@@ -7852,7 +8212,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1033
 msgid "平道"
-msgstr ""
+msgstr "平道"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1034
@@ -7868,7 +8228,7 @@ msgstr ""
 #: ../../skycultures/chinese/description.en.utf8:1040
 #: ../../skycultures/chinese/description.en.utf8:1495
 msgid "天田"
-msgstr ""
+msgstr "天田"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1041
@@ -7885,7 +8245,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1047
 msgid "进贤"
-msgstr ""
+msgstr "进贤"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1048
@@ -7900,7 +8260,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1054
 msgid "周鼎"
-msgstr ""
+msgstr "周鼎"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1055
@@ -7915,7 +8275,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1061
 msgid "天门"
-msgstr ""
+msgstr "天门"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1062
@@ -7930,7 +8290,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1068
 msgid "平"
-msgstr ""
+msgstr "平"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1069
@@ -7946,7 +8306,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1075
 msgid "库楼"
-msgstr ""
+msgstr "库楼"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1076
@@ -7962,7 +8322,7 @@ msgstr ""
 #: ../../skycultures/chinese/description.en.utf8:1082
 #: ../../skycultures/chinese/description.en.utf8:2230
 msgid "柱"
-msgstr ""
+msgstr "柱"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1083
@@ -7979,7 +8339,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1089
 msgid "衡"
-msgstr ""
+msgstr "衡"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1090
@@ -7994,7 +8354,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1096
 msgid "南门"
-msgstr ""
+msgstr "南门"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1097
@@ -8014,7 +8374,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1117
 msgid "大角"
-msgstr ""
+msgstr "大角"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1118
@@ -8029,7 +8389,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1124
 msgid "左摄提"
-msgstr ""
+msgstr "左摄提"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1125
@@ -8044,7 +8404,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1131
 msgid "右摄提"
-msgstr ""
+msgstr "右摄提"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1132
@@ -8059,7 +8419,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1138
 msgid "顿顽"
-msgstr ""
+msgstr "顿顽"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1139
@@ -8074,7 +8434,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1145
 msgid "阳门"
-msgstr ""
+msgstr "阳门"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1146
@@ -8089,7 +8449,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1152
 msgid "折威"
-msgstr ""
+msgstr "折威"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1153
@@ -8111,12 +8471,12 @@ msgstr ""
 #: ../../skycultures/chinese/description.en.utf8:1527
 #: ../../skycultures/mulapin/description.en.utf8:267
 msgid "30"
-msgstr ""
+msgstr "30"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1173
 msgid "天乳"
-msgstr ""
+msgstr "天乳"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1174
@@ -8131,7 +8491,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1180
 msgid "招摇"
-msgstr ""
+msgstr "招摇"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1181
@@ -8146,7 +8506,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1187
 msgid "梗河"
-msgstr ""
+msgstr "梗河"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1188
@@ -8161,7 +8521,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1194
 msgid "帝席"
-msgstr ""
+msgstr "帝席"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1195
@@ -8176,7 +8536,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1201
 msgid "亢池"
-msgstr ""
+msgstr "亢池"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1202
@@ -8191,7 +8551,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1208
 msgid "阵车"
-msgstr ""
+msgstr "阵车"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1209
@@ -8206,7 +8566,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1215
 msgid "骑官"
-msgstr ""
+msgstr "骑官"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1216
@@ -8221,7 +8581,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1222
 msgid "车骑"
-msgstr ""
+msgstr "车骑"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1223
@@ -8236,7 +8596,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1229
 msgid "天辐"
-msgstr ""
+msgstr "天辐"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1230
@@ -8252,7 +8612,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1236
 msgid "骑阵将军"
-msgstr ""
+msgstr "骑阵将军"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1237
@@ -8272,7 +8632,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1257
 msgid "钩钤(附房宿)"
-msgstr ""
+msgstr "钩钤(附房宿)"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1258
@@ -8287,7 +8647,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1264
 msgid "键闭"
-msgstr ""
+msgstr "键闭"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1265
@@ -8302,7 +8662,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1271
 msgid "罚"
-msgstr ""
+msgstr "罚"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1272
@@ -8318,7 +8678,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1278
 msgid "东咸"
-msgstr ""
+msgstr "东咸"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1279
@@ -8333,7 +8693,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1285
 msgid "西咸"
-msgstr ""
+msgstr "西咸"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1286
@@ -8348,7 +8708,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1292
 msgid "日"
-msgstr ""
+msgstr "日"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1293
@@ -8369,7 +8729,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1320
 msgid "积卒"
-msgstr ""
+msgstr "积卒"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1321
@@ -8390,7 +8750,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1341
 msgid "神宫(附尾宿)"
-msgstr ""
+msgstr "神宫(附尾宿)"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1342
@@ -8406,7 +8766,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1348
 msgid "龟"
-msgstr ""
+msgstr "龟"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1349
@@ -8421,7 +8781,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1355
 msgid "天江"
-msgstr ""
+msgstr "天江"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1356
@@ -8436,7 +8796,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1362
 msgid "傅说"
-msgstr ""
+msgstr "傅说"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1363
@@ -8452,7 +8812,7 @@ msgstr ""
 #: ../../skycultures/chinese/description.en.utf8:1369
 #: ../../skycultures/chinese/description.en.utf8:2929
 msgid "鱼"
-msgstr ""
+msgstr "鱼"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1370
@@ -8474,7 +8834,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1390
 msgid "糠"
-msgstr ""
+msgstr "糠"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1391
@@ -8490,7 +8850,7 @@ msgstr ""
 #: ../../skycultures/chinese/description.en.utf8:1397
 #: ../../skycultures/chinese/description.en.utf8:1733
 msgid "杵"
-msgstr ""
+msgstr "杵"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1398
@@ -8512,7 +8872,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1418
 msgid "建"
-msgstr ""
+msgstr "建"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1419
@@ -8527,7 +8887,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1425
 msgid "天籥"
-msgstr ""
+msgstr "天籥"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1426
@@ -8542,7 +8902,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1432
 msgid "天弁"
-msgstr ""
+msgstr "天弁"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1433
@@ -8557,7 +8917,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1439
 msgid "鳖"
-msgstr ""
+msgstr "鳖"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1440
@@ -8572,7 +8932,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1446
 msgid "天鸡"
-msgstr ""
+msgstr "天鸡"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1447
@@ -8587,7 +8947,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1453
 msgid "狗国"
-msgstr ""
+msgstr "狗国"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1454
@@ -8602,7 +8962,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1460
 msgid "天渊"
-msgstr ""
+msgstr "天渊"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1461
@@ -8617,7 +8977,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1467
 msgid "狗"
-msgstr ""
+msgstr "狗"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1468
@@ -8627,7 +8987,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1474
 msgid "农丈人"
-msgstr ""
+msgstr "农丈人"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1475
@@ -8647,7 +9007,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1502
 msgid "九坎"
-msgstr ""
+msgstr "九坎"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1503
@@ -8662,7 +9022,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1509
 msgid "河鼓"
-msgstr ""
+msgstr "河鼓"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1510
@@ -8677,7 +9037,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1516
 msgid "织女"
-msgstr ""
+msgstr "织女"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1517
@@ -8692,7 +9052,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1523
 msgid "左旗"
-msgstr ""
+msgstr "左旗"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1524
@@ -8707,7 +9067,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1530
 msgid "右旗"
-msgstr ""
+msgstr "右旗"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1531
@@ -8722,7 +9082,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1537
 msgid "天桴"
-msgstr ""
+msgstr "天桴"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1539
@@ -8732,7 +9092,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1544
 msgid "罗堰"
-msgstr ""
+msgstr "罗堰"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1545
@@ -8747,7 +9107,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1551
 msgid "渐台"
-msgstr ""
+msgstr "渐台"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1552
@@ -8762,7 +9122,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1558
 msgid "辇道"
-msgstr ""
+msgstr "辇道"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1559
@@ -8782,7 +9142,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1579
 msgid "十二国"
-msgstr ""
+msgstr "十二国"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1580
@@ -8797,7 +9157,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1586
 msgid "离珠"
-msgstr ""
+msgstr "离珠"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1587
@@ -8812,7 +9172,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1593
 msgid "败瓜"
-msgstr ""
+msgstr "败瓜"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1594
@@ -8827,7 +9187,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1600
 msgid "瓠瓜"
-msgstr ""
+msgstr "瓠瓜"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1601
@@ -8842,7 +9202,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1607
 msgid "天津"
-msgstr ""
+msgstr "天津"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1608
@@ -8859,12 +9219,12 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:348
 #: ../../skycultures/seleucid/description.en.utf8:276
 msgid "40"
-msgstr ""
+msgstr "40"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1614
 msgid "奚仲"
-msgstr ""
+msgstr "奚仲"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1615
@@ -8879,7 +9239,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1621
 msgid "扶筐"
-msgstr ""
+msgstr "扶筐"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1622
@@ -8900,7 +9260,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1642
 msgid "司命"
-msgstr ""
+msgstr "司命"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1643
@@ -8915,7 +9275,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1649
 msgid "司禄"
-msgstr ""
+msgstr "司禄"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1650
@@ -8930,7 +9290,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1656
 msgid "司危"
-msgstr ""
+msgstr "司危"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1657
@@ -8945,7 +9305,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1663
 msgid "司非"
-msgstr ""
+msgstr "司非"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1664
@@ -8960,7 +9320,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1670
 msgid "哭"
-msgstr ""
+msgstr "哭"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1671
@@ -8975,7 +9335,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1677
 msgid "泣"
-msgstr ""
+msgstr "泣"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1678
@@ -8990,7 +9350,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1684
 msgid "天垒城"
-msgstr ""
+msgstr "天垒城"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1685
@@ -9005,7 +9365,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1691
 msgid "败臼"
-msgstr ""
+msgstr "败臼"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1692
@@ -9020,7 +9380,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1698
 msgid "离瑜"
-msgstr ""
+msgstr "离瑜"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1699
@@ -9040,7 +9400,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1719
 msgid "坟墓(附危宿)"
-msgstr ""
+msgstr "坟墓(附危宿)"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1720
@@ -9055,7 +9415,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1726
 msgid "人"
-msgstr ""
+msgstr "人"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1727
@@ -9085,7 +9445,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1747
 msgid "车府"
-msgstr ""
+msgstr "车府"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1748
@@ -9103,12 +9463,12 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:201
 #: ../../skycultures/seleucid/description.en.utf8:146
 msgid "20"
-msgstr ""
+msgstr "20"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1754
 msgid "天钩"
-msgstr ""
+msgstr "天钩"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1755
@@ -9128,12 +9488,12 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:178
 #: ../../skycultures/seleucid/description.en.utf8:134
 msgid "18"
-msgstr ""
+msgstr "18"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1761
 msgid "造父"
-msgstr ""
+msgstr "造父"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1762
@@ -9148,7 +9508,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1768
 msgid "盖屋"
-msgstr ""
+msgstr "盖屋"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1769
@@ -9163,7 +9523,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1775
 msgid "虚梁"
-msgstr ""
+msgstr "虚梁"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1776
@@ -9178,7 +9538,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1782
 msgid "天钱"
-msgstr ""
+msgstr "天钱"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1783
@@ -9198,7 +9558,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1803
 msgid "离宫(附室宿)"
-msgstr ""
+msgstr "离宫(附室宿)"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1804
@@ -9213,7 +9573,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1810
 msgid "雷电"
-msgstr ""
+msgstr "雷电"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1811
@@ -9228,7 +9588,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1817
 msgid "垒壁阵"
-msgstr ""
+msgstr "垒壁阵"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1818
@@ -9243,7 +9603,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1824
 msgid "羽林军"
-msgstr ""
+msgstr "羽林军"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1825
@@ -9265,7 +9625,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1831
 msgid "𫓧钺"
-msgstr ""
+msgstr "𫓧钺"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1832
@@ -9280,7 +9640,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1838
 msgid "北落师门"
-msgstr ""
+msgstr "北落师门"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1839
@@ -9295,7 +9655,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1845
 msgid "八魁"
-msgstr ""
+msgstr "八魁"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1846
@@ -9310,7 +9670,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1852
 msgid "天纲"
-msgstr ""
+msgstr "天纲"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1853
@@ -9325,7 +9685,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1859
 msgid "土公吏"
-msgstr ""
+msgstr "土公吏"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1860
@@ -9340,7 +9700,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1866
 msgid "螣蛇"
-msgstr ""
+msgstr "螣蛇"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1867
@@ -9359,7 +9719,7 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:213
 #: ../../skycultures/seleucid/description.en.utf8:158
 msgid "22"
-msgstr ""
+msgstr "22"
 
 #. type: Content of: <table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1882
@@ -9374,12 +9734,12 @@ msgstr ""
 #: ../../skycultures/mulapin/description.en.utf8:219
 #: ../../skycultures/seleucid/description.en.utf8:164
 msgid "23"
-msgstr ""
+msgstr "23"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1887
 msgid "霹雳"
-msgstr ""
+msgstr "霹雳"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1888
@@ -9394,7 +9754,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1894
 msgid "云雨"
-msgstr ""
+msgstr "云雨"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1895
@@ -9409,7 +9769,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1901
 msgid "天厩"
-msgstr ""
+msgstr "天厩"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1902
@@ -9424,7 +9784,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1908
 msgid "𫓧锧"
-msgstr ""
+msgstr "𫓧锧"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1909
@@ -9439,7 +9799,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1915
 msgid "土公"
-msgstr ""
+msgstr "土公"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1916
@@ -9459,7 +9819,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1936
 msgid "外屏"
-msgstr ""
+msgstr "外屏"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1937
@@ -9474,7 +9834,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1943
 msgid "天溷"
-msgstr ""
+msgstr "天溷"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1944
@@ -9489,7 +9849,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1950
 msgid "土司空"
-msgstr ""
+msgstr "土司空"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1951
@@ -9506,7 +9866,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1957
 msgid "军南门"
-msgstr ""
+msgstr "军南门"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1958
@@ -9521,7 +9881,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1964
 msgid "阁道"
-msgstr ""
+msgstr "阁道"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1965
@@ -9536,7 +9896,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1971
 msgid "附路"
-msgstr ""
+msgstr "附路"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1972
@@ -9551,7 +9911,7 @@ msgstr ""
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1978
 msgid "王良"
-msgstr ""
+msgstr "王良"
 
 #. type: Content of: <p><p><p><p><table><tr><td>
 #: ../../skycultures/chinese/description.en.utf8:1979
@@ -11318,12 +11678,6 @@ msgstr ""
 msgid "Homunculus Nebula，Eta Carinae"
 msgstr ""
 
-#. type: Content of: <h3>
-#: ../../skycultures/chinese/description.en.utf8:2965
-#: ../../skycultures/sami/description.en.utf8:57
-msgid "Notes"
-msgstr ""
-
 #. type: Content of: <p><p><p><p><p>
 #: ../../skycultures/chinese/description.en.utf8:2967
 msgid ""
@@ -11414,9 +11768,9 @@ msgstr ""
 #. type: Content of: <p><p><p><p>
 #: ../../skycultures/chinese/description.en.utf8:2986
 msgid ""
-"This sky culture was contributed by <i>Karrie Berglund</i> of Digitalis "
-"Education Solutions, Inc. based on Hong Kong Space Museum star maps (no "
-"longer available online)."
+"This sky culture was initially contributed by <i>Karrie Berglund</i> of "
+"Digitalis Education Solutions, Inc. based on Hong Kong Space Museum star "
+"maps (no longer available online)."
 msgstr ""
 
 #. type: Content of: <p><p><p><p>
@@ -16108,25 +16462,6 @@ msgid ""
 "Not clearly identified, but some researchers describe it as a vulture, since"
 " it is not decorated and relates better to some ethnographic descriptions "
 "(Špoták, 2015)."
-msgstr ""
-
-#. type: Content of: <p><p><p><p><p><p><p><p><p>
-#: ../../skycultures/maya/description.en.utf8:13
-#: ../../skycultures/maya/description.en.utf8:16
-#: ../../skycultures/maya/description.en.utf8:19
-#: ../../skycultures/maya/description.en.utf8:20
-#: ../../skycultures/maya/description.en.utf8:23
-#: ../../skycultures/maya/description.en.utf8:24
-#: ../../skycultures/maya/description.en.utf8:27
-#: ../../skycultures/maya/description.en.utf8:28
-#: ../../skycultures/maya/description.en.utf8:31
-#: ../../skycultures/maya/description.en.utf8:34
-#: ../../skycultures/maya/description.en.utf8:37
-#: ../../skycultures/maya/description.en.utf8:40
-#: ../../skycultures/maya/description.en.utf8:43
-#: ../../skycultures/maya/description.en.utf8:56
-#: ../../skycultures/maya/description.en.utf8:61
-msgid "&nbsp;"
 msgstr ""
 
 #. type: Content of: <p><p><h4>

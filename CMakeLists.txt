@@ -22,7 +22,7 @@ PROJECT(Stellarium)
 # Use integer versions instead of strings for easier handling if required
 SET(STELLARIUM_MAJOR 0)
 SET(STELLARIUM_MINOR 20)
-SET(STELLARIUM_PATCH 3)
+SET(STELLARIUM_PATCH 4)
 ADD_DEFINITIONS(
      -DSTELLARIUM_MAJOR=${STELLARIUM_MAJOR}
      -DSTELLARIUM_MINOR=${STELLARIUM_MINOR}
@@ -106,8 +106,10 @@ IF(NOT STELLARIUM_RELEASE_BUILD)
           EXECUTE_PROCESS(COMMAND git log -1 --pretty=format:%h WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} TIMEOUT 30 OUTPUT_VARIABLE GIT_REVISION OUTPUT_STRIP_TRAILING_WHITESPACE ERROR_VARIABLE GIT_ERROR)
           EXECUTE_PROCESS(COMMAND git rev-list --count ${GIT_BRANCH} WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} TIMEOUT 30 OUTPUT_VARIABLE GIT_COMMITS OUTPUT_STRIP_TRAILING_WHITESPACE ERROR_VARIABLE GIT_ERROR)
           IF(GIT_REVISION)
-               SET(PACKAGE_VERSION "${VERSION}-${GIT_REVISION}")
-               ADD_DEFINITIONS(-DGIT_REVISION="${GIT_REVISION}")
+               # Let's use short hash in all cases
+               STRING(SUBSTRING ${GIT_REVISION} 0 7 REVISION)
+               SET(PACKAGE_VERSION "${VERSION}-${REVISION}")
+               ADD_DEFINITIONS(-DGIT_REVISION="${REVISION}")
                ADD_DEFINITIONS(-DGIT_BRANCH="${GIT_BRANCH}")
                # better way to numbering
                SET(WINDOWS_PACKAGE_VERSION "${VERSION}.${GIT_COMMITS}")
@@ -174,13 +176,9 @@ IF(${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
      SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -stdlib=libc++")
      # share data location:
      SET(SDATALOC "Resources")
-     # home data location:
-     SET(HDATALOC "$ENV{HOME}/Library/Application\ Support/${PROJECT_NAME}")
-ELSE()     
+ELSE()
      # share data location:
      SET(SDATALOC "share/${PACKAGE}")
-     # home data location:
-     SET(HDATALOC "$ENV{HOME}/.${PACKAGE}")
 ENDIF()
 
 IF(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_COMPILER_IS_GNUCC)
@@ -371,13 +369,12 @@ ENDIF(ENABLE_SPOUT)
 
 SET(ENABLE_SCRIPTING 1 CACHE BOOL "Define whether scripting features should be activated.")
 IF(ENABLE_SCRIPTING)
+     ADD_DEFINITIONS(-DENABLE_SCRIPTING)
      # (De-)Activate the script edit console
      SET(ENABLE_SCRIPT_CONSOLE 1 CACHE BOOL "Define whether to build the script console feature.")
      IF(ENABLE_SCRIPT_CONSOLE)
           ADD_DEFINITIONS(-DENABLE_SCRIPT_CONSOLE)
      ENDIF()
-ELSE()
-     ADD_DEFINITIONS(-DDISABLE_SCRIPTING)
 ENDIF()
 
 SET(STELLARIUM_GUI_MODE Standard CACHE STRING "Choose the type of GUI to build, options are: Standard, None")
@@ -426,7 +423,7 @@ ADD_PLUGIN(SimpleDrawLine 0)
 #### work plugins ####
 ADD_PLUGIN(AngleMeasure 1)
 ADD_PLUGIN(ArchaeoLines 1)
-ADD_PLUGIN(CompassMarks 1)
+ADD_PLUGIN(Calendars 1)
 ADD_PLUGIN(Exoplanets 1)
 ADD_PLUGIN(EquationOfTime 1)
 ADD_PLUGIN(MeteorShowers 1)
