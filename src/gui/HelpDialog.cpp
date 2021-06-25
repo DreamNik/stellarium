@@ -249,29 +249,31 @@ void HelpDialog::updateHelpText(void) const
 		    "</a></p>\n";
 
 	htmlText += "<h2 id='keys'>" + q_("Keys").toHtmlEscaped() + "</h2>\n";
-	htmlText += "<table cellpadding=\"10%\">\n";
+	htmlText += "<table cellpadding='10%' width='100%'>\n";
 	// Describe keys for those keys which do not have actions.
 	// navigate
 	htmlText += "<tr><td>" + q_("Pan view around the sky").toHtmlEscaped() + "</td>";
 	htmlText += "<td><b>" + q_("Arrow keys & left mouse drag").toHtmlEscaped() + "</b></td></tr>\n";
 	// zoom in/out
-	htmlText += "<tr><td rowspan='2'>" + q_("Zoom in/out").toHtmlEscaped() +
-		    "</td>";
-	htmlText += "<td><b>" + q_("Page Up/Down").toHtmlEscaped() +
-		    "</b></td></tr>\n";
-	htmlText += "<tr><td><b>" + q_("Ctrl+Up/Down").toHtmlEscaped() +
-		    "</b></td></tr>\n";
+	htmlText += "<tr><td rowspan='2'>" + q_("Zoom in/out").toHtmlEscaped() + "</td>";
+	htmlText += "<td><b>" + hotkeyTextWrapper("Page Up") + "/" + hotkeyTextWrapper("Page Down") + "</b></td></tr>\n";
+	htmlText += "<tr><td><b>" + hotkeyTextWrapper("Ctrl+Up") + "/" + hotkeyTextWrapper("Ctrl+Down") + "</b></td></tr>\n";
 	// time dragging/scrolling
+	QString delimiter = "";
+	#ifdef Q_OS_MAC
+	// TRANSLATORS: The char mean "and"
+	delimiter = QString(" %1 ").arg(q_("&"));
+	#endif
 	htmlText += "<tr><td>" + q_("Time dragging").toHtmlEscaped() + "</td><td><b>" +
-			q_("Ctrl & left mouse drag").toHtmlEscaped() + "</b></td></tr>";
+			QKeySequence(Qt::CTRL).toString(QKeySequence::NativeText) + delimiter + q_("left mouse drag").toHtmlEscaped() + "</b></td></tr>";
 	htmlText += "<tr><td>" + q_("Time scrolling: minutes").toHtmlEscaped() + "</td><td><b>" +
-			q_("Ctrl & mouse wheel").toHtmlEscaped() + "</b></td></tr>";
+			QKeySequence(Qt::CTRL).toString(QKeySequence::NativeText) + delimiter + q_("mouse wheel").toHtmlEscaped() + "</b></td></tr>";
 	htmlText += "<tr><td>" + q_("Time scrolling: hours").toHtmlEscaped() + "</td><td><b>" +
-			q_("Ctrl+Shift & mouse wheel").toHtmlEscaped() + "</b></td></tr>";
+			QKeySequence(Qt::CTRL + Qt::SHIFT).toString(QKeySequence::NativeText) + delimiter + q_("mouse wheel").toHtmlEscaped() + "</b></td></tr>";
 	htmlText += "<tr><td>" + q_("Time scrolling: days").toHtmlEscaped() + "</td><td><b>" +
-			q_("Ctrl+Alt & mouse wheel").toHtmlEscaped() + "</b></td></tr>";
+			QKeySequence(Qt::CTRL + Qt::ALT).toString(QKeySequence::NativeText) + delimiter + q_("mouse wheel").toHtmlEscaped() + "</b></td></tr>";
 	htmlText += "<tr><td>" + q_("Time scrolling: years").toHtmlEscaped() + "</td><td><b>" +
-			q_("Ctrl+Alt+Shift & mouse wheel").toHtmlEscaped() + "</b></td></tr>";
+			QKeySequence(Qt::CTRL + Qt::ALT + Qt::SHIFT).toString(QKeySequence::NativeText) + delimiter + q_("mouse wheel").toHtmlEscaped() + "</b></td></tr>";
 
 	// select object
 	htmlText += "<tr><td>" + q_("Select object").toHtmlEscaped() + "</td>";
@@ -280,32 +282,39 @@ void HelpDialog::updateHelpText(void) const
 	htmlText += "<tr><td>";
 	htmlText += q_("Clear selection").toHtmlEscaped() + "</td>";
 #ifdef Q_OS_MAC
-	htmlText += "<td><b>" + q_("Ctrl & left click").toHtmlEscaped() + "</b></td></tr>\n";
+	htmlText += "<td><b>" + QKeySequence(Qt::CTRL).toString(QKeySequence::NativeText) + delimiter + q_("& left click").toHtmlEscaped() + "</b></td></tr>\n";
 #else
 	htmlText += "<td><b>" + q_("Right click").toHtmlEscaped() + "</b></td></tr>\n";
 #endif
 	// add custom marker
 	htmlText += "<tr><td>" + q_("Add custom marker").toHtmlEscaped() + "</td>";
-	htmlText += "<td><b>" + q_("Shift & left click").toHtmlEscaped() + "</b></td></tr>\n";
+	htmlText += "<td><b>" + QKeySequence(Qt::SHIFT).toString(QKeySequence::NativeText) + delimiter + q_("left click").toHtmlEscaped() + "</b></td></tr>\n";
 	// delete one custom marker
 	htmlText += "<tr><td>" + q_("Delete marker closest to mouse cursor").toHtmlEscaped() + "</td>";
-	htmlText += "<td><b>" + q_("Shift & right click").toHtmlEscaped() + "</b></td></tr>\n";
+	htmlText += "<td><b>" + QKeySequence(Qt::SHIFT).toString(QKeySequence::NativeText) + delimiter + q_("right click").toHtmlEscaped() + "</b></td></tr>\n";
 	// delete all custom markers
 	htmlText += "<tr><td>" + q_("Delete all custom markers").toHtmlEscaped() + "</td>";
-	htmlText += "<td><b>" + q_("Shift & Alt & right click").toHtmlEscaped() + "</b></td></tr>\n";
+	htmlText += "<td><b>" + QKeySequence(Qt::SHIFT + Qt::ALT).toString(QKeySequence::NativeText) + delimiter + q_("right click").toHtmlEscaped() + "</b></td></tr>\n";
 
 	htmlText += "</table>\n<p>" +
 			q_("Below are listed only the actions with assigned keys. Further actions may be available via the \"%1\" button.")
 			.arg(ui->editShortcutsButton->text()).toHtmlEscaped() +
-		    "</p><table cellpadding=\"10%\">\n";
+			"</p><table cellpadding='10%' width='100%'>\n";
 
 	// Append all StelAction shortcuts.
 	StelActionMgr* actionMgr = StelApp::getInstance().getStelActionManager();
 	typedef QPair<QString, QString> KeyDescription;
-	for (auto group : actionMgr->getGroupList())
+	QList<KeyDescription> groups;
+	for (const auto &group : actionMgr->getGroupList())
+	{
+		groups.append(KeyDescription(q_(group), group));
+	}
+	groups.append(KeyDescription(q_("Text User Interface (TUI)"), "TUI")); // Special case: TUI
+	std::sort(groups.begin(), groups.end());
+	for (const auto &group : groups)
 	{
 		QList<KeyDescription> descriptions;
-		for (auto* action : actionMgr->getActionList(group))
+		for (auto* action : actionMgr->getActionList(group.second))
 		{
 			if (action->getShortcut().isEmpty())
 				continue;
@@ -314,20 +323,46 @@ void HelpDialog::updateHelpText(void) const
 			descriptions.append(KeyDescription(text, key));
 		}
 		std::sort(descriptions.begin(), descriptions.end());
-		htmlText += "<tr></tr><tr><td><b><u>" + q_(group) +
-			    ":</u></b></td></tr>\n";
-		for (const auto& desc : descriptions)
+		if (descriptions.count()>0)
 		{
-			htmlText += "<tr><td>" + desc.first.toHtmlEscaped() + "</td>";
-			htmlText += "<td><b>" + desc.second.toHtmlEscaped() +
-				    "</b></td></tr>\n";
+			htmlText += "<tr><td colspan='2'>&nbsp;</td></tr>";
+			htmlText += "<tr><td colspan='2'><b><u>" + group.first.toHtmlEscaped() + ":</u></b></td></tr>\n";
+			for (const auto& desc : descriptions)
+			{
+				htmlText += "<tr><td>" + desc.first.toHtmlEscaped() + "</td>";
+				htmlText += "<td><b>" + desc.second.toHtmlEscaped() + "</b></td></tr>\n";
+			}
+		}
+		if (group.second=="TUI") // Special case: TUI
+		{
+			htmlText += "<tr><td colspan='2'>&nbsp;</td></tr>";
+			htmlText += "<tr><td colspan='2'><b><u>" + group.first.toHtmlEscaped() + ":</u></b></td></tr>\n";
+			htmlText += "<tr><td>" + q_("Activate TUI") + "</td>";
+			htmlText += "<td><b>" + hotkeyTextWrapper("Alt+T") + "</b></td></tr>\n";
 		}
 	}
 
-	htmlText += "<tr></tr><tr><td><b><u>" + q_("Text User Interface (TUI)") +
-		    ":</u></b></td></tr>\n";
-	htmlText += "<tr><td>" + q_("Activate TUI") + "</td>";
-	htmlText += "<td><b>Alt+T</b></td></tr>\n";
+	htmlText += "<tr><td colspan='2'>&nbsp;</td></tr>";
+	htmlText += "<tr><td colspan='2'><b><u>" + q_("Special local keys") +	":</u></b></td></tr>\n";
+	htmlText += "<tr><td colspan='2'>" + q_("All these hotkeys are locally available to run when specific window or tab is opened.") + "</td></tr>";
+	htmlText += "<tr><td colspan='2'><b>" + q_("Script console") +	":</b></td></tr>\n";
+	htmlText += "<tr><td>" + q_("Load script from file") + "</td>";
+	htmlText += "<td><b>" + hotkeyTextWrapper("Ctrl+Shift+O") + "</b></td></tr>\n";
+	htmlText += "<tr><td>" + q_("Save script to file") + "</td>";
+	htmlText += "<td><b>" + hotkeyTextWrapper("Ctrl+Shift+S") + "</b></td></tr>\n";
+	htmlText += "<tr><td>" + q_("Run script") + "</td>";
+	htmlText += "<td><b>" + hotkeyTextWrapper("Ctrl+Return") + "</b></td></tr>\n";
+	htmlText += "<tr><td colspan='2'><b>" + q_("Astronomical calculations") +	":</b></td></tr>\n";
+	htmlText += "<tr><td>" + q_("Update positions") + "</td>";
+	QString shiftF10 = hotkeyTextWrapper("Shift+F10");
+	htmlText += "<td><b>" + shiftF10 + "</b></td></tr>\n";
+	htmlText += "<tr><td>" + q_("Calculate ephemeris") + "</td>";
+	htmlText += "<td><b>" + shiftF10 + "</b></td></tr>\n";
+	htmlText += "<tr><td>" + q_("Calculate transits") + "</td>";
+	htmlText += "<td><b>" + shiftF10 + "</b></td></tr>\n";
+	htmlText += "<tr><td>" + q_("Calculate phenomena") + "</td>";
+	htmlText += "<td><b>" + shiftF10 + "</b></td></tr>\n";
+
 	htmlText += "</table>";
 
 	// Regexp to replace {text} with an HTML link.
@@ -382,6 +417,11 @@ void HelpDialog::updateHelpText(void) const
 	ui->helpBrowser->scrollToAnchor("top");
 }
 
+QString HelpDialog::hotkeyTextWrapper(const QString hotkey) const
+{
+	return QKeySequence(hotkey).toString(QKeySequence::NativeText);
+}
+
 void HelpDialog::updateAboutText(void) const
 {
 	QStringList contributors;
@@ -409,6 +449,9 @@ void HelpDialog::updateAboutText(void) const
 		     << "Michael Dickens" << "Patrick (zero0cool0)" << "Martín Bernardi" << "Sebastian Garcia"
 		     << "Wolfgang Laun" << "Alexandros Kosiaris" << "Alexander Duytschaever";
 	contributors.sort();
+
+	// Regexp to replace {text} with an HTML link.
+	QRegExp a_rx = QRegExp("[{]([^{]*)[}]");
 
 	// populate About tab
 	QString newHtml = "<h1>" + StelUtils::getApplicationName() + "</h1>";
@@ -458,6 +501,12 @@ void HelpDialog::updateAboutText(void) const
 	newHtml += "<li>" + q_("Tester: %1").arg(QString("Khalid AlAjaji")).toHtmlEscaped() + "</li></ul>";
 	newHtml += "<h3>" + q_("Contributors").toHtmlEscaped() + "</h3>";
 	newHtml += "<p>"  + q_("Several people have made contributions to the project and their work has made Stellarium better (sorted alphabetically): %1.").arg(contributors.join(", ")).toHtmlEscaped() + "</p>";
+	newHtml += "<h3>" + q_("Acknowledgment").toHtmlEscaped() + "</h3>";
+	newHtml += "<p>"  + q_("If the Stellarium planetarium was helpful for your research work, the following acknowledgment would be appreciated:").toHtmlEscaped() + "</p>";
+	newHtml += "<p><em>"  + q_("This research has made use of the Stellarium planetarium") + "</em></p>";
+	newHtml += "<p>Zotti, G., Hoffmann, S. M., Wolf, A., Chéreau, F., & Chéreau, G. (2021). The Simulated Sky: Stellarium for Cultural Astronomy Research. Journal of Skyscape Archaeology, 6(2), 221–258. <a href='https://doi.org/10.1558/jsa.17822'>https://doi.org/10.1558/jsa.17822</a></p>";
+	// TRANSLATORS: The text between braces is the text of an HTML link.
+	newHtml += "<p>" + q_("Or you may {download the BibTeX file of the paper} to create another citation format.").toHtmlEscaped().replace(a_rx, "<a href=\"https://stellarium.org/files/stellarium.bib\">\\1</a>") + "</p>";
 	newHtml += "<p>";
 
 	ui->aboutBrowser->clear();
