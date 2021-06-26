@@ -103,6 +103,7 @@ void StelFileMgr::init()
 			searchPaths += info.absoluteFilePath() + "/stellarium";
 			searchPaths += info.absoluteFilePath() + "/0/stellarium";
 		}
+		searchPaths += "/sdcard/stellarium";
 	#elif defined(Q_OS_MAC)
 		QString relativePath = "/../Resources";
 		if (QCoreApplication::applicationDirPath().contains("src")) {
